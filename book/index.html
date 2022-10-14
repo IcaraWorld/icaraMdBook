@@ -142,9 +142,10 @@
 
                 <div id="content" class="content">
                     <main>
-                        <div id="top"></div>
-<h1 id="introduction-page"><a class="header" href="#introduction-page">Introduction Page</a></h1>
-<p>Development Page</p>
+                        <p align="center">
+    <img src="../images/legendsOfIcaraCleanBlue.png">
+</p>
+<p>This is the online repository for rules to play the Icara TTRPG. This abbreviated rulebook is divided into the Rulebook sections, which displays the unique mechanics used for play, and the <strong>Settings</strong> section which contains information about Icara's lore and history.</p>
 
                     </main>
 
@@ -169,6 +170,22 @@
 
         </div>
 
+        <!-- Livereload script (if served using the cli tool) -->
+        <script type="text/javascript">
+            const wsProtocol = location.protocol === 'https:' ? 'wss:' : 'ws:';
+            const wsAddress = wsProtocol + "//" + location.host + "/" + "__livereload";
+            const socket = new WebSocket(wsAddress);
+            socket.onmessage = function (event) {
+                if (event.data === "reload") {
+                    socket.close();
+                    location.reload();
+                }
+            };
+
+            window.onbeforeunload = function() {
+                socket.close();
+            }
+        </script>
 
 
 
