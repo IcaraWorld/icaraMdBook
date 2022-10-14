@@ -1,6 +1,6 @@
 # Summary
 
-[Introduction](./mdFromReact/Introduction.md)
+[Introduction](./mdFromReact/introduction.md) 
 
 # Rulebook
 
@@ -16,8 +16,8 @@
 
 # Setting
 
-- [Setting Overview](./mdFromReact/md/settings/settingsOverview.md)
-    - [Calendar](./mdFromReact/md/settings/calendar.md)
+- [Setting Overview](./mdFromReact/md/setting/settingOverview.md)
+    - [Calendar](./mdFromReact/md/setting/calendar.md)
     - [Religion](./mdFromReact/md/setting/pantheons/overviewReligion.md)
         - [Odin](./mdFromReact/md/setting/pantheons/dwarven/odin.md)
         - [Thor](./mdFromReact/md/setting/pantheons/dwarven/thor.md)
