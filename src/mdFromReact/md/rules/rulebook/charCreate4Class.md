@@ -1,3 +1,5 @@
+<!-- toc -->
+
 # Class - Adventuring Archetypes
 
 ## Barbarian
