@@ -1,5 +1,7 @@
 # Toren - God of Protection
 
+<!-- toc -->
+
 ## Titles
 
 God of Protection, God of Virtue, God of Redemption, God of the Shield, The Preacher, The Judge

@@ -1,5 +1,7 @@
 # Pyrus - God of Fire / Pyria - Goddess of Fire
 
+<!-- toc -->
+
 ## Titles
 
 God of Fire, Goddess of Fire, The Ashbringer, Lord of Flame

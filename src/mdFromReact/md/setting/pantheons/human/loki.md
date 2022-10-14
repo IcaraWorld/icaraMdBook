@@ -1,5 +1,7 @@
 # Loki - God of Mischief
 
+<!-- toc -->
+
 ## Titles
 
 God of Thievery, God of Mischief, God of Luck, God of Daring, The Trickster

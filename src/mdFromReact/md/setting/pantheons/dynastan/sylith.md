@@ -1,5 +1,7 @@
 # Sylith - God of Conquest
 
+<!-- toc -->
+
 ## Titles
 
 God of Conquest, God of War, The Bladed Wyrm, The Scaled Emperor

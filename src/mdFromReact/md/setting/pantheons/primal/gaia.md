@@ -1,5 +1,7 @@
 # Gaia - Goddess of the Earth / Gaus - God of the Earth
 
+<!-- toc -->
+
 ## Titles
 
 Goddess of the Earth, Primal Mother, Terra, God of the Earth, The Unyielding, Hob the Hidden

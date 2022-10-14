@@ -1,5 +1,7 @@
 # Tyranus - Good of Purification
 
+<!-- toc -->
+
 ## Titles
 
 God of Purification, God of Purity, God of Burning Light, Hand of the Emperor

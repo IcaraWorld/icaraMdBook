@@ -1,5 +1,7 @@
 # Tyr - God Of Justice
 
+<!-- toc -->
+
 ## Titles
 
 God of Justice, God of War, God of Law, Lawbringer

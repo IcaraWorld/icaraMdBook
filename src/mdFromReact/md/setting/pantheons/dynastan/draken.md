@@ -1,5 +1,7 @@
 # Draken - Patron God of Dynastan
 
+<!-- toc -->
+
 ## Titles
 
 Patron God of the Dynastan, God of Strength, Chain Breaker, God of Freedom

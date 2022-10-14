@@ -1,5 +1,7 @@
 # Thor - God of Battle
 
+<!-- toc -->
+
 ## Titles
 
 God of Battle, God of Thunder

@@ -1,5 +1,7 @@
 # Bane - God of Doom
 
+<!-- toc -->
+
 ## Titles
 
 God of Doom, God of Destruction, Lord of Apocalypse, The One King, The Black Emperor
