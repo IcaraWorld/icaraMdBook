@@ -36,5 +36,4 @@
         - [Pyrus](./md/setting/pantheons/primal/pyrus.md)
         - [Shiva](./md/setting/pantheons/primal/shiva.md)
 
-
-- 
+---
