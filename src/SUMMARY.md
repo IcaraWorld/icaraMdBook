@@ -19,6 +19,7 @@
 - [Setting Overview](./mdFromReact/md/setting/settingOverview.md)
     - [Calendar](./mdFromReact/md/setting/calendar.md)
     - [Religion](./mdFromReact/md/setting/pantheons/overviewReligion.md)
+        # Dwarven Pantheon
         - [Odin](./mdFromReact/md/setting/pantheons/dwarven/odin.md)
         - [Thor](./mdFromReact/md/setting/pantheons/dwarven/thor.md)
         - [Draken](./mdFromReact/md/setting/pantheons/dynastan/draken.md)
