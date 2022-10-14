@@ -8,7 +8,10 @@ Icara is a massive world that sits at a confluence between multiple planes of ex
 
 Visit the following sections for more information:
 
-- Cultures - A breakdown of the peoples and civilizations that have populated Icara.
-- Time - History and Calendar of Icara.
+- Cultures - A breakdown of the peoples and civilizations that have populated Icara. 
+    - Peoples of Icara
+    - Calendars
+    - History of Icara
+    - Civilizations of Icara
 - Pantheons - The gods and religions of Icara
 
