@@ -4,11 +4,22 @@
 
 # Rulebook
 
-- [Character Creation](./mdFromReact/md/rules/rulebook/charCreate0CharacterSheetReference.md)
-    - [Ability Scores](./mdFromReact/md/rules/rulebook/charCreate1AbilityScores.md)
-    - [Bloodlines](./mdFromReact/md/rules/rulebook/charCreate2Bloodline.md)
-    - [Cultures and Backgrounds](./mdFromReact/md/rules/rulebook/charCreate3CultureAndBackground.md)
-    - [Class](./mdFromReact/md/rules/rulebook/charCreate4Class.md)
+- [Character Creation](./mdFromReact/md/rules/rulebook/charCreation/characterSheetRef.md)
+    - [Ability Scores](./mdFromReact/md/rules/rulebook/charCreation/abilityScores.md)
+    - [Bloodlines](./mdFromReact/md/rules/rulebook/charCreation/bloodlines.md)
+    - [Cultures and Backgrounds](./mdFromReact/md/rules/rulebook/charCreation/cultureAndBackground.md)
+    - [Class](./mdFromReact/md/rules/rulebook/charCreation/class.md)
+        - [Barbarian](./mdFromReact/md/rules/rulebook/charCreation/classes/barbarian.md)
+        - [Bard](./mdFromReact/md/rules/rulebook/charCreation/classes/bard.md)
+        - [Cleric](./mdFromReact/md/rules/rulebook/charCreation/classes/cleric.md)
+        - [Druid](./mdFromReact/md/rules/rulebook/charCreation/classes/druid.md)
+        - [Fighter](./mdFromReact/md/rules/rulebook/charCreation/classes/fighter.md)
+        - [Monk](./mdFromReact/md/rules/rulebook/charCreation/classes/monk.md)
+        - [Ranger](./mdFromReact/md/rules/rulebook/charCreation/classes/ranger.md)
+        - [Rogue](./mdFromReact/md/rules/rulebook/charCreation/classes/rogue.md)
+        - [Sorcerer](./mdFromReact/md/rules/rulebook/charCreation/classes/sorcerer.md)
+        - [Warlock](./mdFromReact/md/rules/rulebook/charCreation/classes/warlock.md)
+        - [Wizard](./mdFromReact/md/rules/rulebook/charCreation/classes/wizard.md)
 - [Combat](./mdFromReact/md/rules/rulebook/combat0CombatTurns.md)
     - [Criticals](./mdFromReact/md/rules/rulebook/combatCriticalHitsFumbles.md)
 

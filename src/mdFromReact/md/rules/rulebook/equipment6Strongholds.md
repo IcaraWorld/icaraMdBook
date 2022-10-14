@@ -1,3 +1,0 @@
-# Strongholds
-
-Player stronghold rules
