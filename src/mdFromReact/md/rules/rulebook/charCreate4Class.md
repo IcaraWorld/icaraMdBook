@@ -1,12 +1,23 @@
 # Class - Adventuring Archetypes
 
-<!-- toc -->
-
 ## Barbarian
 
-### 
+### Class Overview
 
-###
+Barbarians are a tanky martial class that can absorb a lot of damage and specialize in high damage numbers, trading that off with inconsistency. Big crits, high damage attacks, fewer attacks as a result. They don’t have the best armor class or defensive skills, instead relying on their HP pool and resistances to weather fights.
+
+- **Stats** - Barbarians stat prioritization will generally be Strength/Constitution > Wisdom/Dexterity > Intelligence/Charisma. 
+- **Class Type** - Barbarians are a martial class, but they do not get full attack increase progression, instead relying on crits and damage bonuses to deal their damage. 
+- **Key Gameplay Mechanics: **
+    - **Rage:** Barbarians fly into rages to fuel most of their class skills. Rages increase their damage through bonus damage and increased crit chance, and their defense through improved resistances to damage. They use Stamina to fuel these rages, and are the only class to rapidly regain Stamina as part of their core class mechanic.
+    - **Bonus Action Mechanic:** By Subclass 
+- **Resources:**
+    - **Stamina** - Barbarians primarily use Stamina to fuel their rages. Since they have high constitution pools and regenerate their stamina daily in a way other classes don’t, they can generally get away with dipping lower than most classes would prefer.
+    - **Vigor** - Barbarians use vigor for some class abilities and some archetypes use it for shape shifting.
+
+
+
+### Berserker 
 
 ###
 
