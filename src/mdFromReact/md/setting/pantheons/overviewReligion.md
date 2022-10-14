@@ -2,13 +2,15 @@
 
 The ancient and mighty entities worshipped as the gods of Icara take many forms, but share some defined traits depending on their nature. Gods are often defined or categorized by theologians in the following groups:
 
+<!-- toc -->
+
 ## Elder Gods
 
 Elder gods have been around for all of recorded history, and are often part of the origin story of Icara itself. Elder gods typically are considered to inextricably tied to Icara itself - the best example these are the elemental gods or the patron gods of the Elder races. Elder gods do not grant an "afterlife" or have a home realm to gather their faithful into. The souls of the servants of the Elders often disappear and cannot be called again after the mortal's death.
 
 ## Immortal Gods
 
-Immortal gods are from the Outer or Eternal Realms. These gods exist separately from Icara, which is just another battleground for their ideals and worship. They seem to gather power and might from the active worship of their follower, and often grant power to their faithful in return. The followers of the Immortals within the Eternal Realms are typically granted an eternal home in the afterlife, for good or ill. 
+Immortal gods are from the Outer or Eternal Realms. These gods exist separately from Icara, which is just another battleground for their ideals and worship. They seem to gather power and might from the active worship of their followers, and often grant power to their faithful in return. The followers of the Immortals within the Eternal Realms are typically granted an eternal home in the afterlife, for good or ill. 
 
 ## Ascended Gods
 

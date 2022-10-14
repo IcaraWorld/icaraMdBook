@@ -1,5 +1,7 @@
 # Venus - Goddess of Mercy
 
+<!-- toc -->
+
 ## Titles
 
 Goddess of Mercy, Mother of Mercy, Goddess of Healing, Queen of Peace
