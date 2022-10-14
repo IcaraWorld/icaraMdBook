@@ -1,6 +1,6 @@
 
 <p align="center">
-    <img src="./md/mdBookImages/legendsOfIcaraCleanBlue.png">
+    <img src="./md/mdImage/legendsOfIcaraCleanBlue.png">
 </p>
 
 
