@@ -4,3 +4,7 @@ language = "en"
 multilingual = false
 src = "src"
 title = "Icara 5ish Setting"
+
+[preprocessor.toc]
+command = "mdbook-toc"
+renderer = ["html"]
