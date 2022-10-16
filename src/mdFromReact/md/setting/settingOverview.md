@@ -3,7 +3,7 @@
 Icara is a massive world that sits at a confluence between multiple planes of existence. 
 
 <p align="center">
-    <img src="../mdImage/icaraContinentMap.png">
+    <img src="../mdBookImages/icaraContinentMap.png">
 </p>
 
 Visit the following sections for more information:
