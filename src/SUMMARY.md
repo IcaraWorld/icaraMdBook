@@ -21,7 +21,10 @@
         - [Warlock](./mdFromReact/md/rules/rulebook/charCreation/classes/warlock.md)
         - [Wizard](./mdFromReact/md/rules/rulebook/charCreation/classes/wizard.md)
 - [Combat](./mdFromReact/md/rules/rulebook/combat0CombatTurns.md)
-    - [Criticals](./mdFromReact/md/rules/rulebook/combatCriticalHitsFumbles.md)
+    - [Criticals](./mdFromReact/md/rules/rulebook/combat/criticalHitsFumbles.md)
+- [Spellcasting](./mdFromReact/md/rules/rulebook/spellcasting/spellcastingOverview.md)
+    - [Spell Term Glossary](./mdFromReact/md/rules/rulebook/spellcasting/spellcastingGlossary.md)
+    - [Wild Magic](./mdFromReact/md/rules/rulebook/spellcasting/wildMagic.md)
 
 ---
 
