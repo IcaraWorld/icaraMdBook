@@ -73,3 +73,8 @@
             - [Kronos](./mdFromReact/md/setting/pantheons/tribal/kronos.md)
 
 ---
+
+# Reference
+
+- [5ish Spellbook](https://typewritergoblin.github.io/icara-spellbook/)
+- [Action/Condition Reference](https://typewritergoblin.github.io/ruleref/actions.html)
