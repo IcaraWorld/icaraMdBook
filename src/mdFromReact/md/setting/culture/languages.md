@@ -39,15 +39,15 @@ The languages spoken by the beast peoples and tribes of Icara, typically conside
 | Language  | Spoken By (Description)  | Related to | 
 | :-- | :-- | :-- | 
 | Abyssal | Demons | Yuelen |
-| Astral| Devas, Spirits, and Lost Souls	Celestial, Infernal
-Celestial	Angels and Claimed Souls	Astral
-Draconian	Dragons	Dynastan, Primordial
-Eldaren	Abberants, Ithillid, Beholders, Sahuagin | |	
-Faeral (Old Tongue)	Fae creatures	Primordial
-Fallen	Necros Abominations and Corrupted Souls	Infernal
-Infernal	Devils and Enslaved Souls	Astral
-Primordial	Elementals, Arcane creatures	
-Titan	Titans	Faeral
-Eladril	Fae of the ethereal realms	Paliiral
-Neufaril	Fae of the nightmare realms.	Paliiral
-Paliiral	Primal Fae	Faeral
+| Astral | Devas, Spirits, and Lost Souls | Celestial, Infernal |
+| Celestial | Angels and Claimed Souls | Astral |
+| Draconian | Dragons, Dynastan | Primordial |
+| Eldaren | Abberants, Ithillid, Beholders, Sahuagin |	|
+| Faeral (Old Tongue) | Fae creatures | Primordial |
+| Fallen | Necros Abominations and Corrupted Souls | Infernal |
+| Infernal | Devils and Enslaved Souls | Astral |
+| Primordial | Elementals, Arcane creatures	| |
+| Titan	| Titans | Faeral |
+| Eladril	| Fae of the ethereal realms | Paliiral |
+| Neufaril	| Fae of the nightmare realms. | Paliiral |
+| Paliiral	| Primal Fae | Faeral |
