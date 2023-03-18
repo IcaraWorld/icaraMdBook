@@ -1,17 +1,23 @@
-# Spellcasting in Icara
+# Magic Overview
 
-This overview explains how magic works in Icara, including:
+For information on how magic works in Icara, consult the following resources:
+
+On this page:
 
 - Casting Disciplines - Different types of casters in Icara.
 - Schools of Magic - The eight different types of magic, and the subtypes of magic classified within each one.
 - Spellcasting Quick Reference - The raw mechanics of casting, an overview of full and half casters.
+
+Additional chapters:
+
 - Spell Criticals - How wild magic leads to awe-inspiring destruction and horrific accidents for practicioners of the arts.
 - Spell Lists - a brief descriptive list of the spells available.
 - Spell Descriptors - a glossary of terms and meanings applying to the spells.
-- [Icara Spellbook](https://typewritergoblin.github.io/icara-spellbook/) - A searchable spellbook (WIP) that contains updates to the existing spells and changes for these spells.
-- Color of Magic - The morality of magic within Icara, and how each subtype of magic is classified.
-- Essence of Magic - The different sources of raw magic in Icara, with ideas of how they may be harnessed.
 - Art of Magic - A brief discussion of design philosophy, and how to build new spells or use off-the-cuff spell effects from your existing spells.
+- Essence of Magic - The different sources of raw magic in Icara, with ideas of how they may be harnessed.
+- Color of Magic - The morality of magic within Icara, and how each subtype of magic is classified.
+
+
 
 
 # Casting Disciplines
