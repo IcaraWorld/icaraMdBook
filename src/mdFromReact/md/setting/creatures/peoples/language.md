@@ -23,10 +23,10 @@
 | Draconian | Dragons | Dynastan, Primordial |
 | Eldaren | Abberants, Ithillid, Beholders | |
 | Faeral | (Old Tongue) Fae creatures | Primordial |
-| Fallen | Necros Abominations and Corrupted Souls | Infernal |
+| Fallen | Necros Abominations and Corrupted Souls | Primordial, Abyssal |
 | Infernal | Devils and Enslaved Souls | Astral |
 | Primordial | Elementals, Arcane creatures | |
-| Titan | Titans | Faeral |
+| Titan | Titans | Primordial |
 
 
 
