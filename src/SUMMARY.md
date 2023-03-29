@@ -46,9 +46,9 @@
 # Setting
 
 - [Setting Overview](./mdFromReact/md/setting/settingOverview.md)
-    - [Creatures of Icara](./mdFromReact/md/setting/creatures/creatureOverview.md)
-        - [Peoples](./mdFromReact/md/setting/creatures/peoples/peoples.md)
-    - [History](./mdFromReact/md/setting/culture/history/ages.md)
+- [Creatures of Icara](./mdFromReact/md/setting/creatures/creatureOverview.md)
+    - [Peoples](./mdFromReact/md/setting/creatures/peoples/peoples.md)
+- [History](./mdFromReact/md/setting/culture/history/ages.md)
     - [Calendar](./mdFromReact/md/setting/culture/calendar.md)
     - [Kingdoms of Icara](./mdFromReact/md/setting/culture/kingdoms/kingdomOverview.md)
         - [Northern Wilds](./mdFromReact/md/setting/culture/kingdoms/farNorth/farNorth.md)
