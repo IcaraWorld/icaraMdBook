@@ -8,7 +8,7 @@ Barbarians are a tanky martial class that can absorb a lot of damage and special
 
 - **Stats:** - Barbarians stat prioritization will generally be Strength/Constitution > Wisdom/Dexterity > Intelligence/Charisma. 
 - **Class Type:** - Barbarians are a martial class, but they do not get full attack increase progression, instead relying on crits and damage bonuses to deal their damage. 
-- **Key Gameplay Mechanics: **
+- **Key Gameplay Mechanics:**
     - **Rage** - Barbarians fly into rages to fuel most of their class skills. Rages increase their damage through bonus damage and increased crit chance, and their defense through improved resistances to damage. They use Stamina to fuel these rages, and are the only class to rapidly regain Stamina as part of their core class mechanic.
     - **Bonus Action Mechanic:** By Archtype
 - **Resources:**
