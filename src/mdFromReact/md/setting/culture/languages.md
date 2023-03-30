@@ -36,6 +36,10 @@ The languages spoken by the beast peoples and tribes of Icara, typically conside
 | Atlpili | Tekutli, Ayin'mak, Credellian (Coldblood) | Neufaril |
 | Yuelen | Speakable deamonic, spoken by naturalized demons on the mortal plane and cultist seeks to use Abyssal magic.  | Abyssal |
 
+## Forbidden and Ancient Tongues
+
+The languages spoken by ancient creatures, or ones not of this world. These words carry a bit of magic within them, and speaking them may have unforeseen consequences.
+
 | Language  | Spoken By (Description)  | Related to | 
 | :-- | :-- | :-- | 
 | Abyssal | Demons | Yuelen |
@@ -48,6 +52,6 @@ The languages spoken by the beast peoples and tribes of Icara, typically conside
 | Infernal | Devils and Enslaved Souls | Astral |
 | Primordial | Elementals, Arcane creatures	| |
 | Titan	| Titans | Faeral |
-| Eladril	| Fae of the ethereal realms | Paliiral |
-| Neufaril	| Fae of the nightmare realms. | Paliiral |
+| Eladril	| Fae of the ethereal realms | Faeral |
+| Neufaril	| Fae of the nightmare realms. | Faeral |
 | Paliiral	| Primal Fae | Faeral |
