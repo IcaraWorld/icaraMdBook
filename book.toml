@@ -1,6 +1,7 @@
-[preprocessor.toc]
-command = "mdbook-toc"
-renderer = ["html"]
+[preprocessor.pagetoc]
+[output.html]
+additional-css = ["theme/pagetoc.css"]
+additional-js  = ["theme/pagetoc.js"]
 
 [book]
 authors = ["Typewritergoblin"]
