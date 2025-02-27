@@ -24,3 +24,5 @@ towns of wood and stone, and almost every settlement the Dynastans create has a 
 
 Dynastans often worship or pay respect to many gods concurrently, but usually gather divine power only from Tyranus. They also pay respect to Draken, Sylith, Bahaumut, and any variety of powerful dragons that may be in their area. They despise many of the gods of the tribes, especially those worshipped by their hated enemies the Tekutli.
 
+## Dynastan Armies
+

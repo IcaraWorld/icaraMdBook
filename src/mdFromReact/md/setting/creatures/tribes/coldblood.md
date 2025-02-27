@@ -8,12 +8,16 @@ The frog people of the swamps.
 
 ## Trogolodyte 
 
-The lizard and amphibian cave dwellers of the Shadowdeep.
+The lizard and amphibian cave dwellers of the Shadowdeeps, that occassionally make their way to caves near the surface to lair or hunt. Trogolodytes come in several types.
+
+### Pale Troglodytes
+
+Pale troglodytes are lizard-scaled humanoids with stout, thickish bodies and long, slender limbs. 
 
 ## Ayin’mak
 
 The lizardmen of the southern lands.
--
+
 ## Credellian
 
  - The brutish crocodiles of the southern swamps.
