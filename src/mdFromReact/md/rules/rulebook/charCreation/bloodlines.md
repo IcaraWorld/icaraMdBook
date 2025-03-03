@@ -2,6 +2,8 @@
 
 This page will explain how bloodlines/races work. Currently, these are using a rebalanced version of the 5.24 species, with added/updated rules as needed.
 
+<!-- toc -->
+
 # Eberron Bloodlines
 
 ## Changeling
@@ -43,20 +45,44 @@ Trait List:
 
 Elves: Split in the Aereni (high elf), Tairnadal (wood elf), and drow of Xen'drik (dark elf) lineages.
 
-### Traits
+### Elvish Traits
 
-Trait List:
+Elves have the following traits:
 
+- **Associated Stats.** Elves tend to have high dexterity, charisma, and intelligence.
+- **Associated Dragonmarks.** Elves can have the Mark of Shadow.
+- **Creature Type.** Humanoid
 - **Darkvision.** You have Darkvision with a range of 60 feet.
 - **Fey Ancestry.** You have Advantage on saving throws you make to avoid or end the Charmed condition.
 - **Keen Senses.** You have proficiency in the Insight, Perception, or Survival skill.
 - **Trance.** You don’t need to sleep, and magic can't put you to sleep. You can finish a Long Rest in 4 hours if you spend those hours in a trancelike meditation. during which you retain consciousness.
 - **Elven Lineage.** You are part of a lineage that grants you supernatural abilities. Choose a lineage from the Elven Lineages table. You gain the level 1 benefit of that lineage. When you reach character levels 3 and 5, you learn a higher-level spell, as shown on the table. You always have that spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a Long Rest. You can also cast the spell using any spell slots you have of the appropriate level. Intelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait (choose the ability when you select the lineage).
 
-| Lineage   | Level 1                                                                                                                                                        | Level 3      | Level 5            |
-| :-------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------- | :----------- | :----------------- |
-| Drow      | The range of your Darkvision increases to 120 feet, <br>You also know the Dancing Lights cantrip.                                                              | Faerie Fire  | Darkness           |
-| Aereni    | You know the Prestidigitation cantrip. Whenever you finish a Long Rest, <br> you can replace that cantrip with a different cantrip from the Wizard spell list. | Detect Magic | Misty Step         |
-| Tairnadal | Your Speed increases to 35 feet. <br>You also know the Druidcraft cantrip.                                                                                     | Longstrider  | Pass Without Trace |
+| Lineage   | Level l   | Level 3  | Level 5 |
+| :-- | :---- | :------| :--- |
+| Drow   | The range of your Darkvision increases to 120 feet, you also know the Dancing Lights cantrip.  | Faerie Fire  | Darkness  |
+| Aereni  | You know the Prestidigitation cantrip. Whenever you finish a Long Rest, you can replace that cantrip with a different cantrip from the Wizard spell list. | Detect Magic | Misty Step   |
+| Tairnadal | Your Speed increases to 35 feet. You also know the Druidcraft cantrip.                                                                                    | Longstrider  | Pass Without Trace |
+
+## Gnomes
+
+The gnomes don't fall very well within the forest/rock gnome categories, so either can be used for the Zilargo gnomes, as appropriate.
+
+### Gnome Traits
+
+Gnomes have the following traits
+- **Associated Stats.** Elves tend to have high dexterity, charisma, and intelligence.
+- **Associated Dragonmarks.** Elves can have the Mark of Shadow.
+- **Creature Type.** Humanoid
+- **Size:** Small (about 3-4 feet tall)
+- **Speed:** 30 feet
+- **Dark vision.** You have Darkvision with a range of 60 feet.
+- **Gnomish Cunning.** You have Advantage on Intelligence, Wisdom, and Charisma saving throws. 
+- **Gnomish Lineage.** You are part of a lineage that grants you supernatural abilities. Choose one of the following; options; whichever one you choose, Intelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait (choose the ability when you select the lineage): 
+    - **Forest Gnome.** You know the Minor illusion cantrip. You also always have the Speak with Animals spell prepared. You can cast it without a spellslot a number of times equal to your Proficiency Bonus,
+and you regain all expended uses when you finish a Long Rest, You can also use any spell slots you have to cast the spell.
+    - **Rock Gnome.** You know the Mending and Prestidigitation cantrips. In addition, you can spend 10 minutes casting Prestidigitation to create a Tiny clockwork device (AC 5, I HP),such as a toy, fire starter, or music box. When you create the device, you determine its function by choosing one effect from Prestidigitation; the device produces that effect whenever you or another creature takes a Bonus Action to activate it with a touch. If the chosen effect has options within it, you choose  one of those options for the device when you create it. For example, if you choose the spell’s ignite-extingwish effect, you determine whether the device ignites or extinguishes fire; the device doesn't do both. You can have three such devices in existence at a time, and each falls apart 8 hours after its creation or when you dismantle it with a touch as a Utilize action.
+
+
 
 # Icara Races
