@@ -1,0 +1,299 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>History - Icara 5ish Setting</title>
+
+
+        <!-- Custom HTML head -->
+        
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="icon" href="../../../../../favicon.svg">
+        <link rel="shortcut icon" href="../../../../../favicon.png">
+        <link rel="stylesheet" href="../../../../../css/variables.css">
+        <link rel="stylesheet" href="../../../../../css/general.css">
+        <link rel="stylesheet" href="../../../../../css/chrome.css">
+        <link rel="stylesheet" href="../../../../../css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../../../../../FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="../../../../../fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="../../../../../highlight.css">
+        <link rel="stylesheet" href="../../../../../tomorrow-night.css">
+        <link rel="stylesheet" href="../../../../../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+        <link rel="stylesheet" href="../../../../../theme/pagetoc.css">
+
+    </head>
+    <body>
+    <div id="body-container">
+        <!-- Provide site root to javascript -->
+        <script>
+            var path_to_root = "../../../../../";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="../../../../../mdFromReact/introduction.html">Introduction</a></li><li class="chapter-item expanded affix "><li class="part-title">Rulebook</li><li class="chapter-item expanded "><a href="../../../../../mdFromReact/md/rules/rulebook/charCreation/characterSheetRef.html"><strong aria-hidden="true">1.</strong> Character Creation</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../../../../mdFromReact/md/rules/rulebook/charCreation/abilityScores.html"><strong aria-hidden="true">1.1.</strong> Ability Scores</a></li><li class="chapter-item expanded "><a href="../../../../../mdFromReact/md/rules/rulebook/charCreation/bloodlines.html"><strong aria-hidden="true">1.2.</strong> Bloodlines</a></li><li class="chapter-item expanded "><a href="../../../../../mdFromReact/md/rules/rulebook/charCreation/cultureAndBackground.html"><strong aria-hidden="true">1.3.</strong> Cultures and Backgrounds</a></li><li class="chapter-item expanded "><a href="../../../../../mdFromReact/md/rules/rulebook/charCreation/class.html"><strong aria-hidden="true">1.4.</strong> Class</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../../../../mdFromReact/md/rules/rulebook/charCreation/classes/artificer.html"><strong aria-hidden="true">1.4.1.</strong> Artificer</a></li><li class="chapter-item expanded "><a href="../../../../../mdFromReact/md/rules/rulebook/charCreation/classes/barbarian.html"><strong aria-hidden="true">1.4.2.</strong> Barbarian</a></li><li class="chapter-item expanded "><a href="../../../../../mdFromReact/md/rules/rulebook/charCreation/classes/bard.html"><strong aria-hidden="true">1.4.3.</strong> Bard</a></li><li class="chapter-item expanded "><a href="../../../../../mdFromReact/md/rules/rulebook/charCreation/classes/cleric.html"><strong aria-hidden="true">1.4.4.</strong> Cleric</a></li><li class="chapter-item expanded "><a href="../../../../../mdFromReact/md/rules/rulebook/charCreation/classes/druid.html"><strong aria-hidden="true">1.4.5.</strong> Druid</a></li><li class="chapter-item expanded "><a href="../../../../../mdFromReact/md/rules/rulebook/charCreation/classes/fighter.html"><strong aria-hidden="true">1.4.6.</strong> Fighter</a></li><li class="chapter-item expanded "><a href="../../../../../mdFromReact/md/rules/rulebook/charCreation/classes/monk.html"><strong aria-hidden="true">1.4.7.</strong> Monk</a></li><li class="chapter-item expanded "><a href="../../../../../mdFromReact/md/rules/rulebook/charCreation/classes/ranger.html"><strong aria-hidden="true">1.4.8.</strong> Ranger</a></li><li class="chapter-item expanded "><a href="../../../../../mdFromReact/md/rules/rulebook/charCreation/classes/rogue.html"><strong aria-hidden="true">1.4.9.</strong> Rogue</a></li><li class="chapter-item expanded "><a href="../../../../../mdFromReact/md/rules/rulebook/charCreation/classes/sorcerer.html"><strong aria-hidden="true">1.4.10.</strong> Sorcerer</a></li><li class="chapter-item expanded "><a href="../../../../../mdFromReact/md/rules/rulebook/charCreation/classes/warlock.html"><strong aria-hidden="true">1.4.11.</strong> Warlock</a></li><li class="chapter-item expanded "><a href="../../../../../mdFromReact/md/rules/rulebook/charCreation/classes/wizard.html"><strong aria-hidden="true">1.4.12.</strong> Wizard</a></li></ol></li><li class="chapter-item expanded "><a href="../../../../../mdFromReact/md/rules/rulebook/charCreation/skillsAndSpecializations.html"><strong aria-hidden="true">1.5.</strong> Skills and Specializations</a></li><li class="chapter-item expanded "><a href="../../../../../mdFromReact/md/rules/rulebook/charCreation/feats.html"><strong aria-hidden="true">1.6.</strong> Feats</a></li></ol></li><li class="chapter-item expanded "><a href="../../../../../mdFromReact/md/rules/rulebook/combat0CombatTurns.html"><strong aria-hidden="true">2.</strong> Combat</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../../../../mdFromReact/md/rules/rulebook/combat/combatTurns.html"><strong aria-hidden="true">2.1.</strong> Combat Round</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../../../../mdFromReact/md/rules/rulebook/combat/actionOverview.html"><strong aria-hidden="true">2.1.1.</strong> Action Overview</a></li><li class="chapter-item expanded "><a href="../../../../../mdFromReact/md/rules/rulebook/combat/movementPlacement.html"><strong aria-hidden="true">2.1.2.</strong> Movement and Placement</a></li></ol></li><li class="chapter-item expanded "><a href="../../../../../mdFromReact/md/rules/rulebook/combat/modifiers.html"><strong aria-hidden="true">2.2.</strong> Combat Modifiers</a></li><li class="chapter-item expanded "><a href="../../../../../mdFromReact/md/rules/rulebook/combat/criticalHitsFumbles.html"><strong aria-hidden="true">2.3.</strong> Criticals</a></li></ol></li><li class="chapter-item expanded "><a href="../../../../../mdFromReact/md/rules/rulebook/spellcasting/spellcastingOverview.html"><strong aria-hidden="true">3.</strong> Spellcasting</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../../../../mdFromReact/md/rules/rulebook/spellcasting/spellcastingGlossary.html"><strong aria-hidden="true">3.1.</strong> Spell Term Glossary</a></li><li class="chapter-item expanded "><a href="../../../../../mdFromReact/md/rules/rulebook/spellcasting/wildMagic.html"><strong aria-hidden="true">3.2.</strong> Wild Magic</a></li></ol></li><li class="chapter-item expanded "><a href="../../../../../mdFromReact/md/rules/rulebook/equipment/equipOverview.html"><strong aria-hidden="true">4.</strong> Equipment</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../../../../mdFromReact/md/rules/rulebook/equipment/money.html"><strong aria-hidden="true">4.1.</strong> Money</a></li><li class="chapter-item expanded "><a href="../../../../../mdFromReact/md/rules/rulebook/equipment/weapons.html"><strong aria-hidden="true">4.2.</strong> Weapons</a></li><li class="chapter-item expanded "><a href="../../../../../mdFromReact/md/rules/rulebook/equipment/armor.html"><strong aria-hidden="true">4.3.</strong> Armor</a></li><li class="chapter-item expanded "><a href="../../../../../mdFromReact/md/rules/rulebook/equipment/mountsAndCompanions.html"><strong aria-hidden="true">4.4.</strong> Mounts and Companions</a></li><li class="chapter-item expanded "><a href="../../../../../mdFromReact/md/rules/rulebook/equipment/gearAndSupplies.html"><strong aria-hidden="true">4.5.</strong> Gear and Supplies</a></li><li class="chapter-item expanded "><a href="../../../../../mdFromReact/md/rules/rulebook/equipment/goodsAndServices.html"><strong aria-hidden="true">4.6.</strong> Goods and Services</a></li><li class="chapter-item expanded "><a href="../../../../../mdFromReact/md/rules/rulebook/equipment/strongholds.html"><strong aria-hidden="true">4.7.</strong> Strongholds</a></li></ol></li><li class="chapter-item expanded "><a href="../../../../../mdFromReact/md/rules/rulebook/playingTheGame1.html"><strong aria-hidden="true">5.</strong> Playing the Game</a></li><li class="spacer"></li><li class="chapter-item expanded affix "><li class="part-title">Setting</li><li class="chapter-item expanded "><a href="../../../../../mdFromReact/md/setting/settingOverview.html"><strong aria-hidden="true">6.</strong> Setting Overview</a></li><li class="chapter-item expanded "><a href="../../../../../mdFromReact/md/setting/creatures/creatureOverview.html"><strong aria-hidden="true">7.</strong> Creatures of Icara</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../../../../mdFromReact/md/setting/creatures/peoples/peoples.html"><strong aria-hidden="true">7.1.</strong> Peoples</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../../../../mdFromReact/md/setting/creatures/peoples/dwarves.html"><strong aria-hidden="true">7.1.1.</strong> Dwarves</a></li><li class="chapter-item expanded "><a href="../../../../../mdFromReact/md/setting/creatures/peoples/dynastan.html"><strong aria-hidden="true">7.1.2.</strong> Dynastan</a></li><li class="chapter-item expanded "><a href="../../../../../mdFromReact/md/setting/creatures/peoples/elves.html"><strong aria-hidden="true">7.1.3.</strong> Elves</a></li><li class="chapter-item expanded "><a href="../../../../../mdFromReact/md/setting/creatures/peoples/humans.html"><strong aria-hidden="true">7.1.4.</strong> Humans</a></li><li class="chapter-item expanded "><a href="../../../../../mdFromReact/md/setting/creatures/peoples/orcs.html"><strong aria-hidden="true">7.1.5.</strong> Orcs</a></li><li class="chapter-item expanded "><a href="../../../../../mdFromReact/md/setting/creatures/peoples/rakasha.html"><strong aria-hidden="true">7.1.6.</strong> Rakasha</a></li><li class="chapter-item expanded "><a href="../../../../../mdFromReact/md/setting/creatures/peoples/sauren.html"><strong aria-hidden="true">7.1.7.</strong> Sauren</a></li></ol></li><li class="chapter-item expanded "><a href="../../../../../mdFromReact/md/setting/culture/languages.html"><strong aria-hidden="true">7.2.</strong> Languages</a></li><li class="chapter-item expanded "><a href="../../../../../mdFromReact/md/setting/creatures/tribes/tribaloverview.html"><strong aria-hidden="true">7.3.</strong> Tribes</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../../../../mdFromReact/md/setting/creatures/tribes/avara.html"><strong aria-hidden="true">7.3.1.</strong> Avara</a></li><li class="chapter-item expanded "><a href="../../../../../mdFromReact/md/setting/creatures/tribes/coldblood.html"><strong aria-hidden="true">7.3.2.</strong> ColdBloods</a></li><li class="chapter-item expanded "><a href="../../../../../mdFromReact/md/setting/creatures/tribes/giantkin.html"><strong aria-hidden="true">7.3.3.</strong> Giant-kin</a></li><li class="chapter-item expanded "><a href="../../../../../mdFromReact/md/setting/creatures/tribes/goblinoid.html"><strong aria-hidden="true">7.3.4.</strong> Goblinoids</a></li><li class="chapter-item expanded "><a href="../../../../../mdFromReact/md/setting/creatures/tribes/gorgons.html"><strong aria-hidden="true">7.3.5.</strong> Gorgons</a></li><li class="chapter-item expanded "><a href="../../../../../mdFromReact/md/setting/creatures/tribes/kheriki.html"><strong aria-hidden="true">7.3.6.</strong> Kheriki</a></li><li class="chapter-item expanded "><a href="../../../../../mdFromReact/md/setting/creatures/tribes/malorian.html"><strong aria-hidden="true">7.3.7.</strong> Malorians</a></li><li class="chapter-item expanded "><a href="../../../../../mdFromReact/md/setting/creatures/tribes/nerite.html"><strong aria-hidden="true">7.3.8.</strong> Nerites</a></li></ol></li><li class="chapter-item expanded "><a href="../../../../../mdFromReact/md/setting/creatures/primals/primal.html"><strong aria-hidden="true">7.4.</strong> Primals</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../../../../mdFromReact/md/setting/creatures/primals/dragons.html"><strong aria-hidden="true">7.4.1.</strong> Dragons</a></li><li class="chapter-item expanded "><a href="../../../../../mdFromReact/md/setting/creatures/primals/fae.html"><strong aria-hidden="true">7.4.2.</strong> Fae</a></li></ol></li><li class="chapter-item expanded "><a href="../../../../../mdFromReact/md/setting/creatures/beastiary/beastiary.html"><strong aria-hidden="true">7.5.</strong> Beastiary</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../../../../mdFromReact/md/setting/creatures/beastiary/abberations.html"><strong aria-hidden="true">7.5.1.</strong> Abberations</a></li><li class="chapter-item expanded "><a href="../../../../../mdFromReact/md/setting/creatures/beastiary/dragonkin.html"><strong aria-hidden="true">7.5.2.</strong> Dragon-kin</a></li></ol></li><li class="chapter-item expanded "><a href="../../../../../mdFromReact/md/setting/creatures/rifts/rift.html"><strong aria-hidden="true">7.6.</strong> Riftbound</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../../../../mdFromReact/md/setting/creatures/rifts/eternals.html"><strong aria-hidden="true">7.6.1.</strong> Eternals</a></li><li class="chapter-item expanded "><a href="../../../../../mdFromReact/md/setting/creatures/rifts/demons.html"><strong aria-hidden="true">7.6.2.</strong> Daemons</a></li><li class="chapter-item expanded "><a href="../../../../../mdFromReact/md/setting/creatures/rifts/astralvoid.html"><strong aria-hidden="true">7.6.3.</strong> Voidborn</a></li></ol></li></ol></li><li class="chapter-item expanded "><a href="../../../../../mdFromReact/md/setting/culture/history/ages.html" class="active"><strong aria-hidden="true">8.</strong> History</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../../../../mdFromReact/md/setting/culture/calendar.html"><strong aria-hidden="true">8.1.</strong> Calendar</a></li></ol></li><li class="chapter-item expanded "><a href="../../../../../mdFromReact/md/setting/culture/kingdoms/kingdomOverview.html"><strong aria-hidden="true">9.</strong> Kingdoms of Icara</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../../../../mdFromReact/md/setting/culture/kingdoms/farNorth/farNorth.html"><strong aria-hidden="true">9.1.</strong> Northern Wilds</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../../../../mdFromReact/md/setting/culture/kingdoms/farNorth/aesirmountains.html"><strong aria-hidden="true">9.1.1.</strong> Aesir Mountains</a></li><li class="chapter-item expanded "><a href="../../../../../mdFromReact/md/setting/culture/kingdoms/farNorth/elvenforest.html"><strong aria-hidden="true">9.1.2.</strong> Elven Forest</a></li><li class="chapter-item expanded "><a href="../../../../../mdFromReact/md/setting/culture/kingdoms/farNorth/mjorntundra.html"><strong aria-hidden="true">9.1.3.</strong> Mjorn Tundra</a></li><li class="chapter-item expanded "><a href="../../../../../mdFromReact/md/setting/culture/kingdoms/farNorth/overlook.html"><strong aria-hidden="true">9.1.4.</strong> Overlook</a></li></ol></li><li class="chapter-item expanded "><a href="../../../../../mdFromReact/md/setting/culture/kingdoms/northern/northern.html"><strong aria-hidden="true">9.2.</strong> Northern Kingdoms</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../../../../mdFromReact/md/setting/culture/kingdoms/northern/avelos.html"><strong aria-hidden="true">9.2.1.</strong> Avelos</a></li><li class="chapter-item expanded "><a href="../../../../../mdFromReact/md/setting/culture/kingdoms/northern/deurgan.html"><strong aria-hidden="true">9.2.2.</strong> Deurgan Kingdom</a></li><li class="chapter-item expanded "><a href="../../../../../mdFromReact/md/setting/culture/kingdoms/northern/entarian.html"><strong aria-hidden="true">9.2.3.</strong> Entarian Frontier</a></li><li class="chapter-item expanded "><a href="../../../../../mdFromReact/md/setting/culture/kingdoms/northern/resa.html"><strong aria-hidden="true">9.2.4.</strong> Empire of Resa</a></li><li class="chapter-item expanded "><a href="../../../../../mdFromReact/md/setting/culture/kingdoms/northern/tauroch.html"><strong aria-hidden="true">9.2.5.</strong> Oligarchy of Tauroch</a></li><li class="chapter-item expanded "><a href="../../../../../mdFromReact/md/setting/culture/kingdoms/northern/threerings.html"><strong aria-hidden="true">9.2.6.</strong> Kingdom of the Three Rings</a></li><li class="chapter-item expanded "><a href="../../../../../mdFromReact/md/setting/culture/kingdoms/northern/uruthian.html"><strong aria-hidden="true">9.2.7.</strong> Uruthian Empire</a></li></ol></li><li class="chapter-item expanded "><a href="../../../../../mdFromReact/md/setting/culture/kingdoms/coralCoast.html"><strong aria-hidden="true">9.3.</strong> Coral Coast</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../../../../mdFromReact/md/setting/culture/kingdoms/coralCoast/mistisles.html"><strong aria-hidden="true">9.3.1.</strong> Mist Isles</a></li><li class="chapter-item expanded "><a href="../../../../../mdFromReact/md/setting/culture/kingdoms/coralCoast/stormhead.html"><strong aria-hidden="true">9.3.2.</strong> Stormhead Frontier</a></li><li class="chapter-item expanded "><a href="../../../../../mdFromReact/md/setting/culture/kingdoms/coralCoast/shimmering.html"><strong aria-hidden="true">9.3.3.</strong> Shimmering Isles</a></li><li class="chapter-item expanded "><a href="../../../../../mdFromReact/md/setting/culture/kingdoms/coralCoast/sunset.html"><strong aria-hidden="true">9.3.4.</strong> Sunset Isles</a></li><li class="chapter-item expanded "><a href="../../../../../mdFromReact/md/setting/culture/kingdoms/coralCoast/calypso.html"><strong aria-hidden="true">9.3.5.</strong> Calypso Kingdoms</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../../../../mdFromReact/md/setting/culture/kingdoms/coralCoast/andarii.html"><strong aria-hidden="true">9.3.5.1.</strong> Andarii</a></li></ol></li><li class="chapter-item expanded "><a href="../../../../../mdFromReact/md/setting/culture/kingdoms/coralCoast/aldoreth.html"><strong aria-hidden="true">9.3.6.</strong> Aldoreth</a></li></ol></li><li class="chapter-item expanded "><a href="../../../../../mdFromReact/md/setting/culture/kingdoms/goldenRoad/goldenRoad.html"><strong aria-hidden="true">9.4.</strong> Golden Road</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../../../../mdFromReact/md/setting/culture/kingdoms/goldenRoad/tarajah.html"><strong aria-hidden="true">9.4.1.</strong> Tarajah</a></li><li class="chapter-item expanded "><a href="../../../../../mdFromReact/md/setting/culture/kingdoms/goldenRoad/kannis.html"><strong aria-hidden="true">9.4.2.</strong> Kingdoms of Kannis</a></li><li class="chapter-item expanded "><a href="../../../../../mdFromReact/md/setting/culture/kingdoms/goldenRoad/shaldar.html"><strong aria-hidden="true">9.4.3.</strong> Shaldar Empire</a></li><li class="chapter-item expanded "><a href="../../../../../mdFromReact/md/setting/culture/kingdoms/goldenRoad/perchin.html"><strong aria-hidden="true">9.4.4.</strong> Perchin Kingdom</a></li><li class="chapter-item expanded "><a href="../../../../../mdFromReact/md/setting/culture/kingdoms/goldenRoad/thrakkalin.html"><strong aria-hidden="true">9.4.5.</strong> Thrak'kalin Trade Routes</a></li></ol></li><li class="chapter-item expanded "><a href="../../../../../mdFromReact/md/setting/culture/kingdoms/eastern/eastern.html"><strong aria-hidden="true">9.5.</strong> Eastern Crescent</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../../../../mdFromReact/md/setting/culture/kingdoms/eastern/colander.html"><strong aria-hidden="true">9.5.1.</strong> Colander Republic</a></li><li class="chapter-item expanded "><a href="../../../../../mdFromReact/md/setting/culture/kingdoms/eastern/drasis.html"><strong aria-hidden="true">9.5.2.</strong> Kingdom of Drasis</a></li><li class="chapter-item expanded "><a href="../../../../../mdFromReact/md/setting/culture/kingdoms/eastern/muldestan.html"><strong aria-hidden="true">9.5.3.</strong> Kingdom of Muldestan</a></li><li class="chapter-item expanded "><a href="../../../../../mdFromReact/md/setting/culture/kingdoms/eastern/nomad.html"><strong aria-hidden="true">9.5.4.</strong> Nomads of the Eastern Crescent</a></li></ol></li><li class="chapter-item expanded "><a href="../../../../../mdFromReact/md/setting/culture/kingdoms/southern/southern.html"><strong aria-hidden="true">9.6.</strong> Southern Kingdoms</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../../../../mdFromReact/md/setting/culture/kingdoms/southern/crubazar.html"><strong aria-hidden="true">9.6.1.</strong> Kingdom of Crubazar</a></li><li class="chapter-item expanded "><a href="../../../../../mdFromReact/md/setting/culture/kingdoms/southern/eldorado.html"><strong aria-hidden="true">9.6.2.</strong> Eldaro Kingdom</a></li><li class="chapter-item expanded "><a href="../../../../../mdFromReact/md/setting/culture/kingdoms/southern/monacan.html"><strong aria-hidden="true">9.6.3.</strong> Monocan Badlands</a></li></ol></li><li class="chapter-item expanded "><a href="../../../../../mdFromReact/md/setting/culture/kingdoms/empire/empire.html"><strong aria-hidden="true">9.7.</strong> Dynastan Empire</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../../../../mdFromReact/md/setting/culture/kingdoms/empire/drakhul.html"><strong aria-hidden="true">9.7.1.</strong> Drakhul Provincia</a></li><li class="chapter-item expanded "><a href="../../../../../mdFromReact/md/setting/culture/kingdoms/empire/imperium.html"><strong aria-hidden="true">9.7.2.</strong> Imperium Provincia</a></li><li class="chapter-item expanded "><a href="../../../../../mdFromReact/md/setting/culture/kingdoms/empire/reptus.html"><strong aria-hidden="true">9.7.3.</strong> Reptus Provincia</a></li><li class="chapter-item expanded "><a href="../../../../../mdFromReact/md/setting/culture/kingdoms/empire/sharake.html"><strong aria-hidden="true">9.7.4.</strong> Sharake Provincia</a></li><li class="chapter-item expanded "><a href="../../../../../mdFromReact/md/setting/culture/kingdoms/empire/emeraldsea.html"><strong aria-hidden="true">9.7.5.</strong> Emerald Sea</a></li></ol></li><li class="chapter-item expanded "><a href="../../../../../mdFromReact/md/setting/culture/kingdoms/hidden/hidden.html"><strong aria-hidden="true">9.8.</strong> Hidden Kingdoms</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../../../../mdFromReact/md/setting/culture/kingdoms/hidden/forged.html"><strong aria-hidden="true">9.8.1.</strong> Forged Lands</a></li><li class="chapter-item expanded "><a href="../../../../../mdFromReact/md/setting/culture/kingdoms/hidden/seirei.html"><strong aria-hidden="true">9.8.2.</strong> Seirei No Ji</a></li><li class="chapter-item expanded "><a href="../../../../../mdFromReact/md/setting/culture/kingdoms/hidden/tatiandiguo.html"><strong aria-hidden="true">9.8.3.</strong> Golden Empire of Tatiandiguo</a></li></ol></li></ol></li><li class="chapter-item expanded "><a href="../../../../../mdFromReact/md/setting/realms/realms.html"><strong aria-hidden="true">10.</strong> Realms of Existence</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../../../../mdFromReact/md/setting/realms/abyss.html"><strong aria-hidden="true">10.1.</strong> Endless Abyss</a></li><li class="chapter-item expanded "><a href="../../../../../mdFromReact/md/setting/realms/astralVoid.html"><strong aria-hidden="true">10.2.</strong> Astral Void</a></li><li class="chapter-item expanded "><a href="../../../../../mdFromReact/md/setting/realms/elementalRealms.html"><strong aria-hidden="true">10.3.</strong> Elemental Dominions</a></li><li class="chapter-item expanded "><a href="../../../../../mdFromReact/md/setting/realms/eternalRealms.html"><strong aria-hidden="true">10.4.</strong> Eternal Realms</a></li><li class="chapter-item expanded "><a href="../../../../../mdFromReact/md/setting/realms/veils.html"><strong aria-hidden="true">10.5.</strong> Veils</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../../../../mdFromReact/md/setting/realms/astralVeil.html"><strong aria-hidden="true">10.5.1.</strong> Astral Veil</a></li></ol></li><li class="chapter-item expanded "><a href="../../../../../mdFromReact/md/setting/realms/mirrare.html"><strong aria-hidden="true">10.6.</strong> Mirrares</a></li><li class="chapter-item expanded "><a href="../../../../../mdFromReact/md/setting/realms/icaraRealms.html"><strong aria-hidden="true">10.7.</strong> Icara Domain</a></li><li class="chapter-item expanded "><a href="../../../../../mdFromReact/md/setting/realms/primalRealms.html"><strong aria-hidden="true">10.8.</strong> Primal Dominions</a></li><li class="chapter-item expanded "><a href="../../../../../mdFromReact/md/setting/realms/solimaiRealms.html"><strong aria-hidden="true">10.9.</strong> Solimai Dominions</a></li></ol></li><li class="chapter-item expanded "><a href="../../../../../mdFromReact/md/setting/pantheons/overviewReligion.html"><strong aria-hidden="true">11.</strong> Religion</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../../../../mdFromReact/md/setting/pantheons/dwarven/dwarvenPantheon.html"><strong aria-hidden="true">11.1.</strong> Dwarven Pantheon</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../../../../mdFromReact/md/setting/pantheons/dwarven/odin.html"><strong aria-hidden="true">11.1.1.</strong> Odin</a></li><li class="chapter-item expanded "><a href="../../../../../mdFromReact/md/setting/pantheons/dwarven/thor.html"><strong aria-hidden="true">11.1.2.</strong> Thor</a></li></ol></li><li class="chapter-item expanded "><a href="../../../../../mdFromReact/md/setting/pantheons/dynastan/dynastanPantheon.html"><strong aria-hidden="true">11.2.</strong> Dynastan Pantheon</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../../../../mdFromReact/md/setting/pantheons/dynastan/draken.html"><strong aria-hidden="true">11.2.1.</strong> Draken</a></li><li class="chapter-item expanded "><a href="../../../../../mdFromReact/md/setting/pantheons/dynastan/sylith.html"><strong aria-hidden="true">11.2.2.</strong> Sylith</a></li><li class="chapter-item expanded "><a href="../../../../../mdFromReact/md/setting/pantheons/dynastan/tyranus.html"><strong aria-hidden="true">11.2.3.</strong> Tyranus</a></li></ol></li><li class="chapter-item expanded "><a href="../../../../../mdFromReact/md/setting/pantheons/elvish/elvishPantheon.html"><strong aria-hidden="true">11.3.</strong> Elvish Pantheons</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../../../../mdFromReact/md/setting/pantheons/elvish/jarallan.html"><strong aria-hidden="true">11.3.1.</strong> Jarallan</a></li><li class="chapter-item expanded "><a href="../../../../../mdFromReact/md/setting/pantheons/elvish/tyra.html"><strong aria-hidden="true">11.3.2.</strong> Tyra</a></li><li class="chapter-item expanded "><a href="../../../../../mdFromReact/md/setting/pantheons/elvish/lilith.html"><strong aria-hidden="true">11.3.3.</strong> Lilith</a></li><li class="chapter-item expanded "><a href="../../../../../mdFromReact/md/setting/pantheons/elvish/alevandra.html"><strong aria-hidden="true">11.3.4.</strong> Ale'vandra</a></li><li class="chapter-item expanded "><a href="../../../../../mdFromReact/md/setting/pantheons/elvish/illyriel.html"><strong aria-hidden="true">11.3.5.</strong> Illyriel</a></li><li class="chapter-item expanded "><a href="../../../../../mdFromReact/md/setting/pantheons/elvish/ra.html"><strong aria-hidden="true">11.3.6.</strong> Ra</a></li><li class="chapter-item expanded "><a href="../../../../../mdFromReact/md/setting/pantheons/elvish/isis.html"><strong aria-hidden="true">11.3.7.</strong> Isis</a></li></ol></li><li class="chapter-item expanded "><a href="../../../../../mdFromReact/md/setting/pantheons/eternal/eternalPantheon.html"><strong aria-hidden="true">11.4.</strong> Eternal Pantheon</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../../../../mdFromReact/md/setting/pantheons/eternal/teancu.html"><strong aria-hidden="true">11.4.1.</strong> Teancu</a></li></ol></li><li class="chapter-item expanded "><a href="../../../../../mdFromReact/md/setting/pantheons/human/humanPantheon.html"><strong aria-hidden="true">11.5.</strong> Human Pantheons</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../../../../mdFromReact/md/setting/pantheons/human/bane.html"><strong aria-hidden="true">11.5.1.</strong> Bane</a></li><li class="chapter-item expanded "><a href="../../../../../mdFromReact/md/setting/pantheons/human/loki.html"><strong aria-hidden="true">11.5.2.</strong> Loki</a></li><li class="chapter-item expanded "><a href="../../../../../mdFromReact/md/setting/pantheons/human/toren.html"><strong aria-hidden="true">11.5.3.</strong> Toren</a></li><li class="chapter-item expanded "><a href="../../../../../mdFromReact/md/setting/pantheons/human/tyr.html"><strong aria-hidden="true">11.5.4.</strong> Tyr</a></li><li class="chapter-item expanded "><a href="../../../../../mdFromReact/md/setting/pantheons/human/venus.html"><strong aria-hidden="true">11.5.5.</strong> Venus</a></li></ol></li><li class="chapter-item expanded "><a href="../../../../../mdFromReact/md/setting/pantheons/orcish/orcishPantheon.html"><strong aria-hidden="true">11.6.</strong> Orcish Pantheon</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../../../../mdFromReact/md/setting/pantheons/orcish/gruulak.html"><strong aria-hidden="true">11.6.1.</strong> Gruulak</a></li><li class="chapter-item expanded "><a href="../../../../../mdFromReact/md/setting/pantheons/orcish/golak.html"><strong aria-hidden="true">11.6.2.</strong> Golak</a></li></ol></li><li class="chapter-item expanded "><a href="../../../../../mdFromReact/md/setting/pantheons/primal/primalPantheon.html"><strong aria-hidden="true">11.7.</strong> Primal Pantheon</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../../../../mdFromReact/md/setting/pantheons/primal/elementalVariants.html"><strong aria-hidden="true">11.7.1.</strong> Elemental Variants</a></li><li class="chapter-item expanded "><a href="../../../../../mdFromReact/md/setting/pantheons/primal/aviana.html"><strong aria-hidden="true">11.7.2.</strong> Aviana</a></li><li class="chapter-item expanded "><a href="../../../../../mdFromReact/md/setting/pantheons/primal/gaia.html"><strong aria-hidden="true">11.7.3.</strong> Gaia</a></li><li class="chapter-item expanded "><a href="../../../../../mdFromReact/md/setting/pantheons/primal/pyrus.html"><strong aria-hidden="true">11.7.4.</strong> Pyrus</a></li><li class="chapter-item expanded "><a href="../../../../../mdFromReact/md/setting/pantheons/primal/shiva.html"><strong aria-hidden="true">11.7.5.</strong> Shiva</a></li><li class="chapter-item expanded "><a href="../../../../../mdFromReact/md/setting/pantheons/primal/bahaumut.html"><strong aria-hidden="true">11.7.6.</strong> Bahaumut</a></li></ol></li><li class="chapter-item expanded "><a href="../../../../../mdFromReact/md/setting/pantheons/tribal/tribalPantheon.html"><strong aria-hidden="true">11.8.</strong> Tribal Pantheon</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../../../../mdFromReact/md/setting/pantheons/tribal/skarik.html"><strong aria-hidden="true">11.8.1.</strong> Skarik</a></li><li class="chapter-item expanded "><a href="../../../../../mdFromReact/md/setting/pantheons/tribal/malor.html"><strong aria-hidden="true">11.8.2.</strong> Malor</a></li><li class="chapter-item expanded "><a href="../../../../../mdFromReact/md/setting/pantheons/tribal/magus.html"><strong aria-hidden="true">11.8.3.</strong> Magus</a></li><li class="chapter-item expanded "><a href="../../../../../mdFromReact/md/setting/pantheons/tribal/kronos.html"><strong aria-hidden="true">11.8.4.</strong> Kronos</a></li><li class="spacer"></li></ol></li></ol></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">Icara 5ish Setting</h1>
+
+                    <div class="right-buttons">
+                        <a href="../../../../../print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main><div class="sidetoc"><nav class="pagetoc"></nav></div>
+                        <h1 id="six-ages-of-history"><a class="header" href="#six-ages-of-history">Six Ages of History</a></h1>
+<p>The history of Icara is typically divided into six major epochs of history. Each age defines a distinct
+time period, and these ages and their names have gained common usage among the civilized peoples of Icara.</p>
+<h2 id="history-summarized"><a class="header" href="#history-summarized">History Summarized</a></h2>
+<p>In the beginning, moon elves and dwarves ruled their own lands within the far north, while the sun elves controlled the south with nomadic orcish and human tribes roaming the uncivilized lands at the fringe of society. The dwarves and moon elves clashed, with minor territory disputes leading to full
+blown war that lasted centuries. The elves eventually crushed the dwarves, but the victory came at a high price, fracturing of the moon elven people into many distinct groups. Meanwhile, the sun elves taught arcane magic to the human people, civilizing them and helping them form kingdoms of law.</p>
+<p>The spreading civilizations found new enemies both inside Icara and without, as the human casters breach Icara’s dimensional walls and brought a host of deadly extradimensional creatures in the form of both the celestials and infernals, ancient eternal creatures that had battled for centuries. These creatures sought to make Icara a new battleground to fight over and seize, in a cosmic dance that had lasted for centuries - but Icara had it's own plans for it's destiny. </p>
+<p>As the dust settled on many ancient feuds and rivalries, the spread of arcane knowledge created an age of wonders. Religions, schools of magic and great kingdoms were founded. For a few brief centuries, harmony and peace were the norm. But peace will never survive the marriage of ambition and might, and eventually the godlike mage kings tore the world asunder in a battle for power. In desperation, the high elven people callled upon their goddess to  banish magic from Icara. resulting in a magical war that engulfs the continent. All access to magic is lost in the world, and most civilizations are thrown into a dark age.</p>
+<p>After the time of magic, the time of the sword began anew. Kingdoms seek to rebuild themselves, lands were repopulated, and slowly alliances and trust were rebuilt. Over the centuries, magic slowly returns to the world for those with the patience and wisdom to learn it, and with it, the return of conquerors. The uneasy peace of the rebuilt Northern and Southern Kingdoms is shattered by an army of Dynastan, sweeping from the long isolated southern jungles of Icara and enslaving the Southern Kingdoms. Overtime, the united efforts of the Northern kingdoms drive the Dynastan back into the southern jungles and force a treaty of non-aggression, ushering in a new age of relative peace. With the non-aggression pact joined the great kingdoms, elvish, dwarven, and human kingdoms join with the Dynastan empire to keep the peace across Icara. Merchants begin to travel from top to bottom of the continent, trade is brisk, and adventurers begin to push the boundaries of the established empires and discover secrets both new and old... </p>
+<h2 id="age-of-awakening-first-age"><a class="header" href="#age-of-awakening-first-age">Age of Awakening (First Age)</a></h2>
+<p>A time of myth and mystery before written word and histories were common. The Age of Awakening is when many of the races lived
+their own histories and existences. Legend and spoken word indicates the magical faeborn elves were the undisputed masters of the north, with arcane powers that the lowborn humans would not dare to challenge, Often, it seems fae folk were worshipped as veritable gods of Icara by most creatures in contact with them, based on old relics that can be found across the north. </p>
+<p>These lesser races lived off in the shadows of the Fae, too small in numbers to mean anything to the elves. They lived primitive barbaric existences, hunting with tools of stone and wood. The Sun Elves, stewards of the northern mountains called the crown of Icara, taught them crafting as they could manage, without there ability to shape stone and crystal, and treated them much as interesting beasts, wise creatures that they believed could be  civilized. The Moon Elves, stewards of forests and of the night, drove them off with harmless tricks of innate arcane power, amused by the Sun Elves grandiose plans for what amounted to silly apes, not clever consort like the other fae creatures. For the rest of the races, little or no history
+beyond the creation myths of the general races is recorded in this time. Any time frame before the written word is established is generally referred to as the First Age.</p>
+<h3 id="events"><a class="header" href="#events">Events</a></h3>
+<p>Significant Events of the First Age:</p>
+<ul>
+<li>Presence of Jarallan, (Patron God of the Elves)</li>
+<li>Presence of Odin (Patron God of the Dwarves)</li>
+<li>Presence of Pyrus-(Elemental God of Fire)</li>
+<li>Presence of Shiva (Elemental Goddess of Water)</li>
+<li>Presence of Gaia (Elemental Goddess of the Earth)</li>
+<li>Presence of Aviana (Elemental Goddess of Air)</li>
+<li>The Ascendance of Tyra (Elvish Goddess of Nature)</li>
+<li>The creation of the elves, dwarves, humans, and orcs.</li>
+<li>The rise of the Elvish and Dwarvish civilizations.</li>
+<li>The Ascendance Ale’vandra (Elvish Goddess of Magic)</li>
+</ul>
+<h2 id="age-of-blood-second-age"><a class="header" href="#age-of-blood-second-age">Age of Blood (Second Age)</a></h2>
+<p>The Age of Blood was started with the dwarven peoples throwing casting down their masters, the great giants who ruled them in their mountain homes. As they descended from the mountains, hungry for land and liberty, they ran into the elven peoples, first the Sun Elves and then their Moon elf brethren. 
+The Sun Elves abandoned the mountains, unwilling to waste the lives of either elves or dwarves for land - after all, there was so much of it. They settled in the fertile plains and mountains below the great Nijierasill river that cut the elven Worldtree from the lands of men. The Moon Elves were less wiiling to share with these wild, ruthless creatures emerging from the mountains, Weak in magic, but strong in military might, the dwarves had something no elf had - iron blades, iron shields, and deep understanding of war. Unlike the elves, the dwarves had carved their way into this world, and when the fae beasts they encountered showed them no deference, They returned the favor. No one knows who first escalated the contact to bloody war, but the clashes were frequent and deadly. </p>
+<p>In the Far North and around the northern lands, iron blades and axes found their way into the hands of the barbarian creatures - and the lower races began to clash with those they once feared as gods. This period of time is easier to establish accurately by historians, due to the advent of the written language providing historical records to cross reference. During this time, the civilizations of the Elvish and Dwarvish nations clashed often over territory and principles, while the nomadic orcish and human tribes clambered against each other and the Dwarvish and Elvish races. Mankind was slowly raised from the primordial struggle of beasts due to interaction with the “elder” races, and saved from the brutal lifestyle of the orcish hordes by well intentioned civilized kingdoms of elves and dwarves.</p>
+<p>Eventually, this lead to the Sun elf people teaching the humans arcane magic, establishing the Metoc Kingdoms, kingdoms of men advised and guided by elves. Discontent regarding the dealings with human, dwarf and orcish peoples led to the fracturing of the elvish people previously known as Moon Elves into the High, Dark and Wood elf races.</p>
+<p>The established races fought each other, and also were beset upon by both new humanoid cultures (such as the giant and ogre races) and demonic influences as foolish use of arcane magic began to breach Icara’s dimensional walls and open it to mythical and deadly creatures from other dimensions, who also engaged in their own wars. (Such as Bahumat’s purge of Ashtar’s demonic hordes of Chaos) The end of this age was marked with an uneasy peace being drawn between the elder races, and stalemate being reached amongst the elder races and the barbarians.</p>
+<h3 id="events-1"><a class="header" href="#events-1">Events</a></h3>
+<p>Significant events of the Second Age:</p>
+<ul>
+<li>The Titan Wars (War between dwarves and giantkind, where the dwarven people defeated the giant tribes)</li>
+<li>The creation of the Synedra (Elvish High Council.)</li>
+<li>The war of the Elder races (dwarves and elves fight over territory.)</li>
+<li>Lilith’s Coup (The civil war between the moon elf people, resulting in them splintering into three distinct groups, high, dark and wood elf.)</li>
+<li>The creation of the Metoc Kingdoms.</li>
+<li>The Rift between Realms (Icara is discovered by the Eternals)</li>
+<li>The rise of Teancu and the gods of men.</li>
+<li>The rise of demonic cults.</li>
+<li>The Chaos purge (War between dragons, eternals, and demons, where the ten true dragon races claimed dominion of this plane)</li>
+<li>The Treaty of the Elder (Where the high elf and dwarven people created a peace between themselves and then forced peace onto the barbaric races.)</li>
+<li>Presence of Grumsh (Patron God of Orcs)</li>
+<li>Presence of Tyr (Human God of Battle)</li>
+<li>Presence of Ra (God of Knowledge and Sun)</li>
+<li>Presence of Isis (Goddess of Secrets and Night)</li>
+<li>Presence of Skarik (God of War and Vengeance)</li>
+<li>Presence of Ashtar (Demon God of Chaos)</li>
+<li>Presence of Bahamut (Dragon God of Order)</li>
+<li>Ascendance of Thor (Dwarven God of War)</li>
+<li>Ascendance of Lilith (Dark Elven Goddess of Shadows)</li>
+</ul>
+<h2 id="age-of-reason"><a class="header" href="#age-of-reason">Age of Reason</a></h2>
+<p>This period gave rise to most of the truly great civilizations. The Metoc Kingdoms expanded into great and independent nations, and the dwarvish and elvish nations entered into an extended period of enlightenment and research. Many religions and ideas were given birth in this time, and magical knowledge and training were just another form of religious fervor. Great universities and schools of magic were founded, and the rune replaced the sword as the method to shape the world. Huge cities and kingdoms were established, and some individuals gathered incredible power, becoming as gods to their people, using their magical might to form kingdoms of unparalleled prosperity. Unfortunately, ambition crushed the peaceful mediations of those who hoped for a harmonious world.</p>
+<h3 id="events-2"><a class="header" href="#events-2">Events</a></h3>
+<p>Significant events of the Third Age:</p>
+<ul>
+<li>The proliferation of the Metoc Kingdoms, and spread of magic to common use.</li>
+<li>The establishment of independent city states, commonly gathered about a single ideal, priesthood, or tenant of unity.</li>
+<li>The rise of the Mage-Kings </li>
+<li>Presence of Bhaal (God of Deception)</li>
+<li>Presence of Chemos (God of Undeath and Ressurection) were first reported here.</li>
+<li>Ascendance of Illyriel (Elvish Goddess of Song and Mercy)</li>
+<li>Ascendance of Venus (Goddess of Healing)</li>
+<li>Ascendance of Loki (Human God of Mischief and Thievery)</li>
+</ul>
+<h2 id="age-of-apocalypse"><a class="header" href="#age-of-apocalypse">Age of Apocalypse</a></h2>
+<p>This period encompasses the wars and fall of the great empires, as the mage kings tore the world asunder in a battle for power. The Age is named for the god Bane, who attempted to conquer the entire land of Icara before his Ascendance, destroying huge swaths of land and crippling the kingdoms that weren’t overcome by his demonic, undead and mortal armies. Demon kings made Icara their home, summoned by enclaves of estatic mortals that served them, and undead creatures of tremendous power sought to rip the blight of life from the planets surface as they expanded the potency of their necromantic dweomers in ever more devious ways.</p>
+<p>In desperation, the elvish guardians who had initially sought to facilitate the spread of magic worked to stem the tide of arcane power sweeping the globe. The mighty mages of the elvish goddess of magic bolster the goddess herself, who seals the dimensional walls between planes and also the ley lines that flowed across the planet, sealing arcane magic from the world of Icara, and begins eliminating the mage kings strong enough to disrupt the seals, seeking to leave only the highest of the order of Ale’vandra with the tools to utilize the sealed magic. The mightiest of the mage kings, Magus, furious over the actions of the elven mages, rips arcane power through the seals and dimensional walls and seeks to destroy the goddess herself, and
+the resulting magical war envelops both Tarajah and the elvish kingdom in an all consuming inferno of destruction. All access to magic is lost in the world as the goddess of magic and her attempted usurper disappear from Icara, leaving the seals intact and magic lost. Most civilizations are thrown into a dark age, many others are completely destroyed.</p>
+<h3 id="events-3"><a class="header" href="#events-3">Events</a></h3>
+<p>Significant events of the Fourth Age:</p>
+<ul>
+<li>The destruction of the Metoc Kingdoms</li>
+<li>The sealing of the arcane ley lines and solidifying of the wall between the planes.</li>
+<li>The destruction of the elvish world tree and Tarajah</li>
+<li>The loss of magic from the world following the disappearance of Magus and Ale’vandra.</li>
+<li>The Ascendance of Magus, (God of Dark Magic)</li>
+<li>The Ascendance of Toren (Human God of Protection)</li>
+<li>The Ascendance of Bane (God of Doom and Destruction)</li>
+</ul>
+<h2 id="age-of-conquest"><a class="header" href="#age-of-conquest">Age of Conquest</a></h2>
+<p>After the time of magic was ended, the time of the sword began anew. Kingdoms seek to rebuild themselves, lands were repopulated, and slowly alliances and trust were rebuilt. Over the centuries, magic returned to the world along with the elvish goddess and a new mysterious deity calling itself by the name of the mage king Magus. The seals that prevented dimensional openings and access to the ley lines are weakened with the return, allowing access to the powerful arcane forces once again. However, access to the power of the arcane is both more difficult and more dangerous than it was prior to
+the seals being placed. The uneasy peace of the rebuilt Northern and Southern Kingdoms ends when a massive army of Dynastan marched from the southern jungles of Icara, conquering and enslaving the Southern Kingdoms and setting their eyes on the north. This dream is never realized, as the elements themselves stop the seemingly invincible war machine of the Dynastan, halting the unstoppable march and nearly destroying their entire attacking army in the process. With a reprieve and a chance to unite granted, the Northern Kingdoms drive the remnants of the Dynastan back into the southern jungles. Facing the arrayed might of the North, the Dynastan Empire signs a treaty of non-aggression, ushering in a new age of relative peace.</p>
+<h3 id="events-4"><a class="header" href="#events-4">Events</a></h3>
+<p>Significant events of the Fifth Age:</p>
+<ul>
+<li>The emergence of the Dynastan Empire</li>
+<li>The conquest of the southern kingdoms</li>
+<li>The liberation of the southern kingdoms</li>
+<li>The signing of the Pax Perpetua (or Treaty of Shakare in Common.)</li>
+<li>Presence of Kronos (God of Adventure and Time)</li>
+<li>The Ascendance of Draken (Patron God of Dynastans)</li>
+<li>The Ascendance of Tyranus (Dynastan God of Purity)</li>
+<li>The Ascendance of Silith (Dynastan God of Conquest)</li>
+</ul>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="../../../../../mdFromReact/md/setting/creatures/rifts/astralvoid.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next" href="../../../../../mdFromReact/md/setting/culture/calendar.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="../../../../../mdFromReact/md/setting/creatures/rifts/astralvoid.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next" href="../../../../../mdFromReact/md/setting/culture/calendar.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="../../../../../elasticlunr.min.js"></script>
+        <script src="../../../../../mark.min.js"></script>
+        <script src="../../../../../searcher.js"></script>
+
+        <script src="../../../../../clipboard.min.js"></script>
+        <script src="../../../../../highlight.js"></script>
+        <script src="../../../../../book.js"></script>
+
+        <!-- Custom JS scripts -->
+        <script src="../../../../../theme/pagetoc.js"></script>
+
+
+    </div>
+    </body>
+</html>

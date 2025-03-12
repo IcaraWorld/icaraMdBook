@@ -1,0 +1,490 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Artificer - Icara 5ish Setting</title>
+
+
+        <!-- Custom HTML head -->
+        
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="icon" href="../../../../../../favicon.svg">
+        <link rel="shortcut icon" href="../../../../../../favicon.png">
+        <link rel="stylesheet" href="../../../../../../css/variables.css">
+        <link rel="stylesheet" href="../../../../../../css/general.css">
+        <link rel="stylesheet" href="../../../../../../css/chrome.css">
+        <link rel="stylesheet" href="../../../../../../css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../../../../../../FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="../../../../../../fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="../../../../../../highlight.css">
+        <link rel="stylesheet" href="../../../../../../tomorrow-night.css">
+        <link rel="stylesheet" href="../../../../../../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+        <link rel="stylesheet" href="../../../../../../theme/pagetoc.css">
+
+    </head>
+    <body>
+    <div id="body-container">
+        <!-- Provide site root to javascript -->
+        <script>
+            var path_to_root = "../../../../../../";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="../../../../../../mdFromReact/introduction.html">Introduction</a></li><li class="chapter-item expanded affix "><li class="part-title">Rulebook</li><li class="chapter-item expanded "><a href="../../../../../../mdFromReact/md/rules/rulebook/charCreation/characterSheetRef.html"><strong aria-hidden="true">1.</strong> Character Creation</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../../../../../mdFromReact/md/rules/rulebook/charCreation/abilityScores.html"><strong aria-hidden="true">1.1.</strong> Ability Scores</a></li><li class="chapter-item expanded "><a href="../../../../../../mdFromReact/md/rules/rulebook/charCreation/bloodlines.html"><strong aria-hidden="true">1.2.</strong> Bloodlines</a></li><li class="chapter-item expanded "><a href="../../../../../../mdFromReact/md/rules/rulebook/charCreation/cultureAndBackground.html"><strong aria-hidden="true">1.3.</strong> Cultures and Backgrounds</a></li><li class="chapter-item expanded "><a href="../../../../../../mdFromReact/md/rules/rulebook/charCreation/class.html"><strong aria-hidden="true">1.4.</strong> Class</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../../../../../mdFromReact/md/rules/rulebook/charCreation/classes/artificer.html" class="active"><strong aria-hidden="true">1.4.1.</strong> Artificer</a></li><li class="chapter-item expanded "><a href="../../../../../../mdFromReact/md/rules/rulebook/charCreation/classes/barbarian.html"><strong aria-hidden="true">1.4.2.</strong> Barbarian</a></li><li class="chapter-item expanded "><a href="../../../../../../mdFromReact/md/rules/rulebook/charCreation/classes/bard.html"><strong aria-hidden="true">1.4.3.</strong> Bard</a></li><li class="chapter-item expanded "><a href="../../../../../../mdFromReact/md/rules/rulebook/charCreation/classes/cleric.html"><strong aria-hidden="true">1.4.4.</strong> Cleric</a></li><li class="chapter-item expanded "><a href="../../../../../../mdFromReact/md/rules/rulebook/charCreation/classes/druid.html"><strong aria-hidden="true">1.4.5.</strong> Druid</a></li><li class="chapter-item expanded "><a href="../../../../../../mdFromReact/md/rules/rulebook/charCreation/classes/fighter.html"><strong aria-hidden="true">1.4.6.</strong> Fighter</a></li><li class="chapter-item expanded "><a href="../../../../../../mdFromReact/md/rules/rulebook/charCreation/classes/monk.html"><strong aria-hidden="true">1.4.7.</strong> Monk</a></li><li class="chapter-item expanded "><a href="../../../../../../mdFromReact/md/rules/rulebook/charCreation/classes/ranger.html"><strong aria-hidden="true">1.4.8.</strong> Ranger</a></li><li class="chapter-item expanded "><a href="../../../../../../mdFromReact/md/rules/rulebook/charCreation/classes/rogue.html"><strong aria-hidden="true">1.4.9.</strong> Rogue</a></li><li class="chapter-item expanded "><a href="../../../../../../mdFromReact/md/rules/rulebook/charCreation/classes/sorcerer.html"><strong aria-hidden="true">1.4.10.</strong> Sorcerer</a></li><li class="chapter-item expanded "><a href="../../../../../../mdFromReact/md/rules/rulebook/charCreation/classes/warlock.html"><strong aria-hidden="true">1.4.11.</strong> Warlock</a></li><li class="chapter-item expanded "><a href="../../../../../../mdFromReact/md/rules/rulebook/charCreation/classes/wizard.html"><strong aria-hidden="true">1.4.12.</strong> Wizard</a></li></ol></li><li class="chapter-item expanded "><a href="../../../../../../mdFromReact/md/rules/rulebook/charCreation/skillsAndSpecializations.html"><strong aria-hidden="true">1.5.</strong> Skills and Specializations</a></li><li class="chapter-item expanded "><a href="../../../../../../mdFromReact/md/rules/rulebook/charCreation/feats.html"><strong aria-hidden="true">1.6.</strong> Feats</a></li></ol></li><li class="chapter-item expanded "><a href="../../../../../../mdFromReact/md/rules/rulebook/combat0CombatTurns.html"><strong aria-hidden="true">2.</strong> Combat</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../../../../../mdFromReact/md/rules/rulebook/combat/combatTurns.html"><strong aria-hidden="true">2.1.</strong> Combat Round</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../../../../../mdFromReact/md/rules/rulebook/combat/actionOverview.html"><strong aria-hidden="true">2.1.1.</strong> Action Overview</a></li><li class="chapter-item expanded "><a href="../../../../../../mdFromReact/md/rules/rulebook/combat/movementPlacement.html"><strong aria-hidden="true">2.1.2.</strong> Movement and Placement</a></li></ol></li><li class="chapter-item expanded "><a href="../../../../../../mdFromReact/md/rules/rulebook/combat/modifiers.html"><strong aria-hidden="true">2.2.</strong> Combat Modifiers</a></li><li class="chapter-item expanded "><a href="../../../../../../mdFromReact/md/rules/rulebook/combat/criticalHitsFumbles.html"><strong aria-hidden="true">2.3.</strong> Criticals</a></li></ol></li><li class="chapter-item expanded "><a href="../../../../../../mdFromReact/md/rules/rulebook/spellcasting/spellcastingOverview.html"><strong aria-hidden="true">3.</strong> Spellcasting</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../../../../../mdFromReact/md/rules/rulebook/spellcasting/spellcastingGlossary.html"><strong aria-hidden="true">3.1.</strong> Spell Term Glossary</a></li><li class="chapter-item expanded "><a href="../../../../../../mdFromReact/md/rules/rulebook/spellcasting/wildMagic.html"><strong aria-hidden="true">3.2.</strong> Wild Magic</a></li></ol></li><li class="chapter-item expanded "><a href="../../../../../../mdFromReact/md/rules/rulebook/equipment/equipOverview.html"><strong aria-hidden="true">4.</strong> Equipment</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../../../../../mdFromReact/md/rules/rulebook/equipment/money.html"><strong aria-hidden="true">4.1.</strong> Money</a></li><li class="chapter-item expanded "><a href="../../../../../../mdFromReact/md/rules/rulebook/equipment/weapons.html"><strong aria-hidden="true">4.2.</strong> Weapons</a></li><li class="chapter-item expanded "><a href="../../../../../../mdFromReact/md/rules/rulebook/equipment/armor.html"><strong aria-hidden="true">4.3.</strong> Armor</a></li><li class="chapter-item expanded "><a href="../../../../../../mdFromReact/md/rules/rulebook/equipment/mountsAndCompanions.html"><strong aria-hidden="true">4.4.</strong> Mounts and Companions</a></li><li class="chapter-item expanded "><a href="../../../../../../mdFromReact/md/rules/rulebook/equipment/gearAndSupplies.html"><strong aria-hidden="true">4.5.</strong> Gear and Supplies</a></li><li class="chapter-item expanded "><a href="../../../../../../mdFromReact/md/rules/rulebook/equipment/goodsAndServices.html"><strong aria-hidden="true">4.6.</strong> Goods and Services</a></li><li class="chapter-item expanded "><a href="../../../../../../mdFromReact/md/rules/rulebook/equipment/strongholds.html"><strong aria-hidden="true">4.7.</strong> Strongholds</a></li></ol></li><li class="chapter-item expanded "><a href="../../../../../../mdFromReact/md/rules/rulebook/playingTheGame1.html"><strong aria-hidden="true">5.</strong> Playing the Game</a></li><li class="spacer"></li><li class="chapter-item expanded affix "><li class="part-title">Setting</li><li class="chapter-item expanded "><a href="../../../../../../mdFromReact/md/setting/settingOverview.html"><strong aria-hidden="true">6.</strong> Setting Overview</a></li><li class="chapter-item expanded "><a href="../../../../../../mdFromReact/md/setting/creatures/creatureOverview.html"><strong aria-hidden="true">7.</strong> Creatures of Icara</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../../../../../mdFromReact/md/setting/creatures/peoples/peoples.html"><strong aria-hidden="true">7.1.</strong> Peoples</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../../../../../mdFromReact/md/setting/creatures/peoples/dwarves.html"><strong aria-hidden="true">7.1.1.</strong> Dwarves</a></li><li class="chapter-item expanded "><a href="../../../../../../mdFromReact/md/setting/creatures/peoples/dynastan.html"><strong aria-hidden="true">7.1.2.</strong> Dynastan</a></li><li class="chapter-item expanded "><a href="../../../../../../mdFromReact/md/setting/creatures/peoples/elves.html"><strong aria-hidden="true">7.1.3.</strong> Elves</a></li><li class="chapter-item expanded "><a href="../../../../../../mdFromReact/md/setting/creatures/peoples/humans.html"><strong aria-hidden="true">7.1.4.</strong> Humans</a></li><li class="chapter-item expanded "><a href="../../../../../../mdFromReact/md/setting/creatures/peoples/orcs.html"><strong aria-hidden="true">7.1.5.</strong> Orcs</a></li><li class="chapter-item expanded "><a href="../../../../../../mdFromReact/md/setting/creatures/peoples/rakasha.html"><strong aria-hidden="true">7.1.6.</strong> Rakasha</a></li><li class="chapter-item expanded "><a href="../../../../../../mdFromReact/md/setting/creatures/peoples/sauren.html"><strong aria-hidden="true">7.1.7.</strong> Sauren</a></li></ol></li><li class="chapter-item expanded "><a href="../../../../../../mdFromReact/md/setting/culture/languages.html"><strong aria-hidden="true">7.2.</strong> Languages</a></li><li class="chapter-item expanded "><a href="../../../../../../mdFromReact/md/setting/creatures/tribes/tribaloverview.html"><strong aria-hidden="true">7.3.</strong> Tribes</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../../../../../mdFromReact/md/setting/creatures/tribes/avara.html"><strong aria-hidden="true">7.3.1.</strong> Avara</a></li><li class="chapter-item expanded "><a href="../../../../../../mdFromReact/md/setting/creatures/tribes/coldblood.html"><strong aria-hidden="true">7.3.2.</strong> ColdBloods</a></li><li class="chapter-item expanded "><a href="../../../../../../mdFromReact/md/setting/creatures/tribes/giantkin.html"><strong aria-hidden="true">7.3.3.</strong> Giant-kin</a></li><li class="chapter-item expanded "><a href="../../../../../../mdFromReact/md/setting/creatures/tribes/goblinoid.html"><strong aria-hidden="true">7.3.4.</strong> Goblinoids</a></li><li class="chapter-item expanded "><a href="../../../../../../mdFromReact/md/setting/creatures/tribes/gorgons.html"><strong aria-hidden="true">7.3.5.</strong> Gorgons</a></li><li class="chapter-item expanded "><a href="../../../../../../mdFromReact/md/setting/creatures/tribes/kheriki.html"><strong aria-hidden="true">7.3.6.</strong> Kheriki</a></li><li class="chapter-item expanded "><a href="../../../../../../mdFromReact/md/setting/creatures/tribes/malorian.html"><strong aria-hidden="true">7.3.7.</strong> Malorians</a></li><li class="chapter-item expanded "><a href="../../../../../../mdFromReact/md/setting/creatures/tribes/nerite.html"><strong aria-hidden="true">7.3.8.</strong> Nerites</a></li></ol></li><li class="chapter-item expanded "><a href="../../../../../../mdFromReact/md/setting/creatures/primals/primal.html"><strong aria-hidden="true">7.4.</strong> Primals</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../../../../../mdFromReact/md/setting/creatures/primals/dragons.html"><strong aria-hidden="true">7.4.1.</strong> Dragons</a></li><li class="chapter-item expanded "><a href="../../../../../../mdFromReact/md/setting/creatures/primals/fae.html"><strong aria-hidden="true">7.4.2.</strong> Fae</a></li></ol></li><li class="chapter-item expanded "><a href="../../../../../../mdFromReact/md/setting/creatures/beastiary/beastiary.html"><strong aria-hidden="true">7.5.</strong> Beastiary</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../../../../../mdFromReact/md/setting/creatures/beastiary/abberations.html"><strong aria-hidden="true">7.5.1.</strong> Abberations</a></li><li class="chapter-item expanded "><a href="../../../../../../mdFromReact/md/setting/creatures/beastiary/dragonkin.html"><strong aria-hidden="true">7.5.2.</strong> Dragon-kin</a></li></ol></li><li class="chapter-item expanded "><a href="../../../../../../mdFromReact/md/setting/creatures/rifts/rift.html"><strong aria-hidden="true">7.6.</strong> Riftbound</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../../../../../mdFromReact/md/setting/creatures/rifts/eternals.html"><strong aria-hidden="true">7.6.1.</strong> Eternals</a></li><li class="chapter-item expanded "><a href="../../../../../../mdFromReact/md/setting/creatures/rifts/demons.html"><strong aria-hidden="true">7.6.2.</strong> Daemons</a></li><li class="chapter-item expanded "><a href="../../../../../../mdFromReact/md/setting/creatures/rifts/astralvoid.html"><strong aria-hidden="true">7.6.3.</strong> Voidborn</a></li></ol></li></ol></li><li class="chapter-item expanded "><a href="../../../../../../mdFromReact/md/setting/culture/history/ages.html"><strong aria-hidden="true">8.</strong> History</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../../../../../mdFromReact/md/setting/culture/calendar.html"><strong aria-hidden="true">8.1.</strong> Calendar</a></li></ol></li><li class="chapter-item expanded "><a href="../../../../../../mdFromReact/md/setting/culture/kingdoms/kingdomOverview.html"><strong aria-hidden="true">9.</strong> Kingdoms of Icara</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../../../../../mdFromReact/md/setting/culture/kingdoms/farNorth/farNorth.html"><strong aria-hidden="true">9.1.</strong> Northern Wilds</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../../../../../mdFromReact/md/setting/culture/kingdoms/farNorth/aesirmountains.html"><strong aria-hidden="true">9.1.1.</strong> Aesir Mountains</a></li><li class="chapter-item expanded "><a href="../../../../../../mdFromReact/md/setting/culture/kingdoms/farNorth/elvenforest.html"><strong aria-hidden="true">9.1.2.</strong> Elven Forest</a></li><li class="chapter-item expanded "><a href="../../../../../../mdFromReact/md/setting/culture/kingdoms/farNorth/mjorntundra.html"><strong aria-hidden="true">9.1.3.</strong> Mjorn Tundra</a></li><li class="chapter-item expanded "><a href="../../../../../../mdFromReact/md/setting/culture/kingdoms/farNorth/overlook.html"><strong aria-hidden="true">9.1.4.</strong> Overlook</a></li></ol></li><li class="chapter-item expanded "><a href="../../../../../../mdFromReact/md/setting/culture/kingdoms/northern/northern.html"><strong aria-hidden="true">9.2.</strong> Northern Kingdoms</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../../../../../mdFromReact/md/setting/culture/kingdoms/northern/avelos.html"><strong aria-hidden="true">9.2.1.</strong> Avelos</a></li><li class="chapter-item expanded "><a href="../../../../../../mdFromReact/md/setting/culture/kingdoms/northern/deurgan.html"><strong aria-hidden="true">9.2.2.</strong> Deurgan Kingdom</a></li><li class="chapter-item expanded "><a href="../../../../../../mdFromReact/md/setting/culture/kingdoms/northern/entarian.html"><strong aria-hidden="true">9.2.3.</strong> Entarian Frontier</a></li><li class="chapter-item expanded "><a href="../../../../../../mdFromReact/md/setting/culture/kingdoms/northern/resa.html"><strong aria-hidden="true">9.2.4.</strong> Empire of Resa</a></li><li class="chapter-item expanded "><a href="../../../../../../mdFromReact/md/setting/culture/kingdoms/northern/tauroch.html"><strong aria-hidden="true">9.2.5.</strong> Oligarchy of Tauroch</a></li><li class="chapter-item expanded "><a href="../../../../../../mdFromReact/md/setting/culture/kingdoms/northern/threerings.html"><strong aria-hidden="true">9.2.6.</strong> Kingdom of the Three Rings</a></li><li class="chapter-item expanded "><a href="../../../../../../mdFromReact/md/setting/culture/kingdoms/northern/uruthian.html"><strong aria-hidden="true">9.2.7.</strong> Uruthian Empire</a></li></ol></li><li class="chapter-item expanded "><a href="../../../../../../mdFromReact/md/setting/culture/kingdoms/coralCoast.html"><strong aria-hidden="true">9.3.</strong> Coral Coast</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../../../../../mdFromReact/md/setting/culture/kingdoms/coralCoast/mistisles.html"><strong aria-hidden="true">9.3.1.</strong> Mist Isles</a></li><li class="chapter-item expanded "><a href="../../../../../../mdFromReact/md/setting/culture/kingdoms/coralCoast/stormhead.html"><strong aria-hidden="true">9.3.2.</strong> Stormhead Frontier</a></li><li class="chapter-item expanded "><a href="../../../../../../mdFromReact/md/setting/culture/kingdoms/coralCoast/shimmering.html"><strong aria-hidden="true">9.3.3.</strong> Shimmering Isles</a></li><li class="chapter-item expanded "><a href="../../../../../../mdFromReact/md/setting/culture/kingdoms/coralCoast/sunset.html"><strong aria-hidden="true">9.3.4.</strong> Sunset Isles</a></li><li class="chapter-item expanded "><a href="../../../../../../mdFromReact/md/setting/culture/kingdoms/coralCoast/calypso.html"><strong aria-hidden="true">9.3.5.</strong> Calypso Kingdoms</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../../../../../mdFromReact/md/setting/culture/kingdoms/coralCoast/andarii.html"><strong aria-hidden="true">9.3.5.1.</strong> Andarii</a></li></ol></li><li class="chapter-item expanded "><a href="../../../../../../mdFromReact/md/setting/culture/kingdoms/coralCoast/aldoreth.html"><strong aria-hidden="true">9.3.6.</strong> Aldoreth</a></li></ol></li><li class="chapter-item expanded "><a href="../../../../../../mdFromReact/md/setting/culture/kingdoms/goldenRoad/goldenRoad.html"><strong aria-hidden="true">9.4.</strong> Golden Road</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../../../../../mdFromReact/md/setting/culture/kingdoms/goldenRoad/tarajah.html"><strong aria-hidden="true">9.4.1.</strong> Tarajah</a></li><li class="chapter-item expanded "><a href="../../../../../../mdFromReact/md/setting/culture/kingdoms/goldenRoad/kannis.html"><strong aria-hidden="true">9.4.2.</strong> Kingdoms of Kannis</a></li><li class="chapter-item expanded "><a href="../../../../../../mdFromReact/md/setting/culture/kingdoms/goldenRoad/shaldar.html"><strong aria-hidden="true">9.4.3.</strong> Shaldar Empire</a></li><li class="chapter-item expanded "><a href="../../../../../../mdFromReact/md/setting/culture/kingdoms/goldenRoad/perchin.html"><strong aria-hidden="true">9.4.4.</strong> Perchin Kingdom</a></li><li class="chapter-item expanded "><a href="../../../../../../mdFromReact/md/setting/culture/kingdoms/goldenRoad/thrakkalin.html"><strong aria-hidden="true">9.4.5.</strong> Thrak'kalin Trade Routes</a></li></ol></li><li class="chapter-item expanded "><a href="../../../../../../mdFromReact/md/setting/culture/kingdoms/eastern/eastern.html"><strong aria-hidden="true">9.5.</strong> Eastern Crescent</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../../../../../mdFromReact/md/setting/culture/kingdoms/eastern/colander.html"><strong aria-hidden="true">9.5.1.</strong> Colander Republic</a></li><li class="chapter-item expanded "><a href="../../../../../../mdFromReact/md/setting/culture/kingdoms/eastern/drasis.html"><strong aria-hidden="true">9.5.2.</strong> Kingdom of Drasis</a></li><li class="chapter-item expanded "><a href="../../../../../../mdFromReact/md/setting/culture/kingdoms/eastern/muldestan.html"><strong aria-hidden="true">9.5.3.</strong> Kingdom of Muldestan</a></li><li class="chapter-item expanded "><a href="../../../../../../mdFromReact/md/setting/culture/kingdoms/eastern/nomad.html"><strong aria-hidden="true">9.5.4.</strong> Nomads of the Eastern Crescent</a></li></ol></li><li class="chapter-item expanded "><a href="../../../../../../mdFromReact/md/setting/culture/kingdoms/southern/southern.html"><strong aria-hidden="true">9.6.</strong> Southern Kingdoms</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../../../../../mdFromReact/md/setting/culture/kingdoms/southern/crubazar.html"><strong aria-hidden="true">9.6.1.</strong> Kingdom of Crubazar</a></li><li class="chapter-item expanded "><a href="../../../../../../mdFromReact/md/setting/culture/kingdoms/southern/eldorado.html"><strong aria-hidden="true">9.6.2.</strong> Eldaro Kingdom</a></li><li class="chapter-item expanded "><a href="../../../../../../mdFromReact/md/setting/culture/kingdoms/southern/monacan.html"><strong aria-hidden="true">9.6.3.</strong> Monocan Badlands</a></li></ol></li><li class="chapter-item expanded "><a href="../../../../../../mdFromReact/md/setting/culture/kingdoms/empire/empire.html"><strong aria-hidden="true">9.7.</strong> Dynastan Empire</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../../../../../mdFromReact/md/setting/culture/kingdoms/empire/drakhul.html"><strong aria-hidden="true">9.7.1.</strong> Drakhul Provincia</a></li><li class="chapter-item expanded "><a href="../../../../../../mdFromReact/md/setting/culture/kingdoms/empire/imperium.html"><strong aria-hidden="true">9.7.2.</strong> Imperium Provincia</a></li><li class="chapter-item expanded "><a href="../../../../../../mdFromReact/md/setting/culture/kingdoms/empire/reptus.html"><strong aria-hidden="true">9.7.3.</strong> Reptus Provincia</a></li><li class="chapter-item expanded "><a href="../../../../../../mdFromReact/md/setting/culture/kingdoms/empire/sharake.html"><strong aria-hidden="true">9.7.4.</strong> Sharake Provincia</a></li><li class="chapter-item expanded "><a href="../../../../../../mdFromReact/md/setting/culture/kingdoms/empire/emeraldsea.html"><strong aria-hidden="true">9.7.5.</strong> Emerald Sea</a></li></ol></li><li class="chapter-item expanded "><a href="../../../../../../mdFromReact/md/setting/culture/kingdoms/hidden/hidden.html"><strong aria-hidden="true">9.8.</strong> Hidden Kingdoms</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../../../../../mdFromReact/md/setting/culture/kingdoms/hidden/forged.html"><strong aria-hidden="true">9.8.1.</strong> Forged Lands</a></li><li class="chapter-item expanded "><a href="../../../../../../mdFromReact/md/setting/culture/kingdoms/hidden/seirei.html"><strong aria-hidden="true">9.8.2.</strong> Seirei No Ji</a></li><li class="chapter-item expanded "><a href="../../../../../../mdFromReact/md/setting/culture/kingdoms/hidden/tatiandiguo.html"><strong aria-hidden="true">9.8.3.</strong> Golden Empire of Tatiandiguo</a></li></ol></li></ol></li><li class="chapter-item expanded "><a href="../../../../../../mdFromReact/md/setting/realms/realms.html"><strong aria-hidden="true">10.</strong> Realms of Existence</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../../../../../mdFromReact/md/setting/realms/abyss.html"><strong aria-hidden="true">10.1.</strong> Endless Abyss</a></li><li class="chapter-item expanded "><a href="../../../../../../mdFromReact/md/setting/realms/astralVoid.html"><strong aria-hidden="true">10.2.</strong> Astral Void</a></li><li class="chapter-item expanded "><a href="../../../../../../mdFromReact/md/setting/realms/elementalRealms.html"><strong aria-hidden="true">10.3.</strong> Elemental Dominions</a></li><li class="chapter-item expanded "><a href="../../../../../../mdFromReact/md/setting/realms/eternalRealms.html"><strong aria-hidden="true">10.4.</strong> Eternal Realms</a></li><li class="chapter-item expanded "><a href="../../../../../../mdFromReact/md/setting/realms/veils.html"><strong aria-hidden="true">10.5.</strong> Veils</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../../../../../mdFromReact/md/setting/realms/astralVeil.html"><strong aria-hidden="true">10.5.1.</strong> Astral Veil</a></li></ol></li><li class="chapter-item expanded "><a href="../../../../../../mdFromReact/md/setting/realms/mirrare.html"><strong aria-hidden="true">10.6.</strong> Mirrares</a></li><li class="chapter-item expanded "><a href="../../../../../../mdFromReact/md/setting/realms/icaraRealms.html"><strong aria-hidden="true">10.7.</strong> Icara Domain</a></li><li class="chapter-item expanded "><a href="../../../../../../mdFromReact/md/setting/realms/primalRealms.html"><strong aria-hidden="true">10.8.</strong> Primal Dominions</a></li><li class="chapter-item expanded "><a href="../../../../../../mdFromReact/md/setting/realms/solimaiRealms.html"><strong aria-hidden="true">10.9.</strong> Solimai Dominions</a></li></ol></li><li class="chapter-item expanded "><a href="../../../../../../mdFromReact/md/setting/pantheons/overviewReligion.html"><strong aria-hidden="true">11.</strong> Religion</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../../../../../mdFromReact/md/setting/pantheons/dwarven/dwarvenPantheon.html"><strong aria-hidden="true">11.1.</strong> Dwarven Pantheon</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../../../../../mdFromReact/md/setting/pantheons/dwarven/odin.html"><strong aria-hidden="true">11.1.1.</strong> Odin</a></li><li class="chapter-item expanded "><a href="../../../../../../mdFromReact/md/setting/pantheons/dwarven/thor.html"><strong aria-hidden="true">11.1.2.</strong> Thor</a></li></ol></li><li class="chapter-item expanded "><a href="../../../../../../mdFromReact/md/setting/pantheons/dynastan/dynastanPantheon.html"><strong aria-hidden="true">11.2.</strong> Dynastan Pantheon</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../../../../../mdFromReact/md/setting/pantheons/dynastan/draken.html"><strong aria-hidden="true">11.2.1.</strong> Draken</a></li><li class="chapter-item expanded "><a href="../../../../../../mdFromReact/md/setting/pantheons/dynastan/sylith.html"><strong aria-hidden="true">11.2.2.</strong> Sylith</a></li><li class="chapter-item expanded "><a href="../../../../../../mdFromReact/md/setting/pantheons/dynastan/tyranus.html"><strong aria-hidden="true">11.2.3.</strong> Tyranus</a></li></ol></li><li class="chapter-item expanded "><a href="../../../../../../mdFromReact/md/setting/pantheons/elvish/elvishPantheon.html"><strong aria-hidden="true">11.3.</strong> Elvish Pantheons</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../../../../../mdFromReact/md/setting/pantheons/elvish/jarallan.html"><strong aria-hidden="true">11.3.1.</strong> Jarallan</a></li><li class="chapter-item expanded "><a href="../../../../../../mdFromReact/md/setting/pantheons/elvish/tyra.html"><strong aria-hidden="true">11.3.2.</strong> Tyra</a></li><li class="chapter-item expanded "><a href="../../../../../../mdFromReact/md/setting/pantheons/elvish/lilith.html"><strong aria-hidden="true">11.3.3.</strong> Lilith</a></li><li class="chapter-item expanded "><a href="../../../../../../mdFromReact/md/setting/pantheons/elvish/alevandra.html"><strong aria-hidden="true">11.3.4.</strong> Ale'vandra</a></li><li class="chapter-item expanded "><a href="../../../../../../mdFromReact/md/setting/pantheons/elvish/illyriel.html"><strong aria-hidden="true">11.3.5.</strong> Illyriel</a></li><li class="chapter-item expanded "><a href="../../../../../../mdFromReact/md/setting/pantheons/elvish/ra.html"><strong aria-hidden="true">11.3.6.</strong> Ra</a></li><li class="chapter-item expanded "><a href="../../../../../../mdFromReact/md/setting/pantheons/elvish/isis.html"><strong aria-hidden="true">11.3.7.</strong> Isis</a></li></ol></li><li class="chapter-item expanded "><a href="../../../../../../mdFromReact/md/setting/pantheons/eternal/eternalPantheon.html"><strong aria-hidden="true">11.4.</strong> Eternal Pantheon</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../../../../../mdFromReact/md/setting/pantheons/eternal/teancu.html"><strong aria-hidden="true">11.4.1.</strong> Teancu</a></li></ol></li><li class="chapter-item expanded "><a href="../../../../../../mdFromReact/md/setting/pantheons/human/humanPantheon.html"><strong aria-hidden="true">11.5.</strong> Human Pantheons</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../../../../../mdFromReact/md/setting/pantheons/human/bane.html"><strong aria-hidden="true">11.5.1.</strong> Bane</a></li><li class="chapter-item expanded "><a href="../../../../../../mdFromReact/md/setting/pantheons/human/loki.html"><strong aria-hidden="true">11.5.2.</strong> Loki</a></li><li class="chapter-item expanded "><a href="../../../../../../mdFromReact/md/setting/pantheons/human/toren.html"><strong aria-hidden="true">11.5.3.</strong> Toren</a></li><li class="chapter-item expanded "><a href="../../../../../../mdFromReact/md/setting/pantheons/human/tyr.html"><strong aria-hidden="true">11.5.4.</strong> Tyr</a></li><li class="chapter-item expanded "><a href="../../../../../../mdFromReact/md/setting/pantheons/human/venus.html"><strong aria-hidden="true">11.5.5.</strong> Venus</a></li></ol></li><li class="chapter-item expanded "><a href="../../../../../../mdFromReact/md/setting/pantheons/orcish/orcishPantheon.html"><strong aria-hidden="true">11.6.</strong> Orcish Pantheon</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../../../../../mdFromReact/md/setting/pantheons/orcish/gruulak.html"><strong aria-hidden="true">11.6.1.</strong> Gruulak</a></li><li class="chapter-item expanded "><a href="../../../../../../mdFromReact/md/setting/pantheons/orcish/golak.html"><strong aria-hidden="true">11.6.2.</strong> Golak</a></li></ol></li><li class="chapter-item expanded "><a href="../../../../../../mdFromReact/md/setting/pantheons/primal/primalPantheon.html"><strong aria-hidden="true">11.7.</strong> Primal Pantheon</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../../../../../mdFromReact/md/setting/pantheons/primal/elementalVariants.html"><strong aria-hidden="true">11.7.1.</strong> Elemental Variants</a></li><li class="chapter-item expanded "><a href="../../../../../../mdFromReact/md/setting/pantheons/primal/aviana.html"><strong aria-hidden="true">11.7.2.</strong> Aviana</a></li><li class="chapter-item expanded "><a href="../../../../../../mdFromReact/md/setting/pantheons/primal/gaia.html"><strong aria-hidden="true">11.7.3.</strong> Gaia</a></li><li class="chapter-item expanded "><a href="../../../../../../mdFromReact/md/setting/pantheons/primal/pyrus.html"><strong aria-hidden="true">11.7.4.</strong> Pyrus</a></li><li class="chapter-item expanded "><a href="../../../../../../mdFromReact/md/setting/pantheons/primal/shiva.html"><strong aria-hidden="true">11.7.5.</strong> Shiva</a></li><li class="chapter-item expanded "><a href="../../../../../../mdFromReact/md/setting/pantheons/primal/bahaumut.html"><strong aria-hidden="true">11.7.6.</strong> Bahaumut</a></li></ol></li><li class="chapter-item expanded "><a href="../../../../../../mdFromReact/md/setting/pantheons/tribal/tribalPantheon.html"><strong aria-hidden="true">11.8.</strong> Tribal Pantheon</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../../../../../mdFromReact/md/setting/pantheons/tribal/skarik.html"><strong aria-hidden="true">11.8.1.</strong> Skarik</a></li><li class="chapter-item expanded "><a href="../../../../../../mdFromReact/md/setting/pantheons/tribal/malor.html"><strong aria-hidden="true">11.8.2.</strong> Malor</a></li><li class="chapter-item expanded "><a href="../../../../../../mdFromReact/md/setting/pantheons/tribal/magus.html"><strong aria-hidden="true">11.8.3.</strong> Magus</a></li><li class="chapter-item expanded "><a href="../../../../../../mdFromReact/md/setting/pantheons/tribal/kronos.html"><strong aria-hidden="true">11.8.4.</strong> Kronos</a></li><li class="spacer"></li></ol></li></ol></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">Icara 5ish Setting</h1>
+
+                    <div class="right-buttons">
+                        <a href="../../../../../../print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main><div class="sidetoc"><nav class="pagetoc"></nav></div>
+                        <h1 id="artificer"><a class="header" href="#artificer">Artificer</a></h1>
+<!-- toc -->
+<h2 id="class-overview"><a class="header" href="#class-overview">Class Overview</a></h2>
+<ul>
+<li><strong>Stats:</strong> -</li>
+<li><strong>Class Type:</strong></li>
+<li><strong>Key Gameplay Mechanics:</strong>
+<ul>
+<li><strong>Rage</strong> - </li>
+<li><strong>Bonus Action Mechanic:</strong> </li>
+</ul>
+</li>
+<li><strong>Resources:</strong></li>
+</ul>
+<h2 id="artificer-class-table"><a class="header" href="#artificer-class-table">Artificer Class Table</a></h2>
+<p>| Level | Proficiency Bonus | Class Features | Plans Known | Magic Items | Cantrips | Prepared Spells | 1 | 2 | 3 | 4 | 5 |
+|:--|:--|:--|:--|:--|:--|:--|:--|:--|
+| 1 | +2 | Magical Tinkering, Spellcasting | — | — | 2 | 2 | 2 | — | — | — | — | 
+| 2 | +2 | Replicate Magic Item | 4 | 2 | 2 | 3 | 2 | — | — | — | — | 
+| 3 | +2 | Artificer Subclass, Right Tool for the Job | 4 | 2 | 2 | 4 | 3 | — | — | — | — | 
+| 4 | +2 | Ability Score Improvement | 4 | 2 | 2 | 5 | 3 | — | — | — | — | 
+| 5 | +3 | Subclass feature | 4 | 2 | 2 | 6 | 4 | 2 | — | — | — | 
+| 6 | +3 | Magic Item Tinker | 5 | 3 | 2 | 6 | 4 | 2 | — | — | — | 
+| 7 | +3 | Flash of Genius | 5 | 3 | 2 | 7 | 4 | 3 | — | — | — | 
+| 8 | +3 | Ability Score Improvement | 5 | 3 | 2 | 7 | 4 | 3 | — | — | — | 
+| 9 | +4 | Subclass feature | 5 | 3 | 2 | 9 | 4 | 3 | 2 | — | — | 
+| 10 | +4 | Magic Item Adept | 6 | 4 | 3 | 9 | 4 | 3 | 2 | — | — | 
+| 11 | +4 | Spell-Storing Item | 6 | 4 | 3 | 10 | 4 | 3 | 3 | — | — | 
+| 12 | +4 | Ability Score Improvement | 6 | 4 | 3 | 10 | 4 | 3 | 3 | — | — | 
+| 13 | +5 | — | 6 | 4 | 3 | 11 | 4 | 3 | 3 | 1 | — | 
+| 14 | +5 | Magic Item Savant | 7 | 5 | 4 | 11 | 4 | 3 | 3 | 1 | — | 
+| 15 | +5 | Subclass Feature | 7 | 5 | 4 | 12 | 4 | 3 | 3 | 2 | — | 
+| 16 | +5 | Ability Score Improvement | 7 | 5 | 4 | 12 | 4 | 3 | 3 | 2 | — | 
+| 17 | +6 | — | 7 | 5 | 4 | 14 | 4 | 3 | 3 | 3 | 1 | 
+| 18 | +6 | Magic Item Master | 8 | 6 | 4 | 14 | 4 | 3 | 3 | 3 | 1 | 
+| 19 | +6 | Epic Boon | 8 | 6 | 4 | 15 | 4 | 3 | 3 | 3 | 2 | 
+| 20 | +6 | Soul of Artifice | 8 | 6 | 4 | 15 | 4 | 3 | 3 | 3 | 2 | </p>
+<h3 id="level-1-magical-tinkering"><a class="header" href="#level-1-magical-tinkering">LEVEL 1: MAGICAL TINKERING</a></h3>
+<p>As a Magic action while	holding	Tinker’s Tools,	you	can	create one item in an unoccupied space within 5	feet of yourself, choosing a low cost item. Item's available can be made from nearly nothing, but after an hour it falls apart. You can use this feature a number of times equal to your Intelligence modifier, and regain all uses on a Long Rest. </p>
+<h3 id="level-1-spellcasting"><a class="header" href="#level-1-spellcasting">LEVEL 1: SPELLCASTING</a></h3>
+<p>You have learned how to channel magical energy through objects. See the Player’s Handbook for the rules on spellcasting. The information below details how you use those rules with Artificer spells, which appear in the Artificer spell list later in the class’s description.</p>
+<p><strong>Tools Required.</strong> You produce your Artificer spells through tools. You can use Thieves’ Tools, Tinker’s Tools, or another kind of Artisan’s Tools with which you have proficiency as a Spellcasting Focus, and you must have one of those focuses in hand when you cast an Artificer spell (meaning the spell has an “M” component when you cast it).</p>
+<p><strong>Cantrips.</strong> You know two Artificer cantrips of your choice. Acid Splash and Prestidigitation are recommended. Whenever you finish a Long Rest, you can replace one of your cantrips from this feature with another Artificer cantrip of your choice. When you reach Artificer levels 10 and 14, you learn another Artificer cantrip of your choice, as shown in the Cantrips column of the Artificer Features table.</p>
+<p><strong>Spell Slots.</strong> The Artificer Features table shows how many spell slots you have to cast your level 1+ spells. You regain all expended spell slots when you finish a Long Rest.</p>
+<p><strong>Prepared Spells of Level 1+.</strong> You prepare the list of level 1+ spells that are available for you to cast with this feature. To start, choose two level 1 Artificer spells. Cure Wounds and Grease are recommended.</p>
+<p>The number of spells on your list increases as you gain Artificer levels, as shown in the Prepared Spells column of the Artificer Features table. Whenever that number increases, choose additional Artificer spells until the number of spells on your list matches the number on the table. The chosen spells must be of a level for which you have spell slots. For example, if you’re a level 5 Artificer, your list of prepared spells can include six Artificer spells of levels 1 and 2 in any combination.</p>
+<p>If another Artificer feature gives you spells that you always have prepared, those don’t count against the number of spells you can prepare with this feature, but those spells otherwise count as Artificer spells for you.</p>
+<p><strong>Changing Your Prepared Spells.</strong> Whenever you finish a Long Rest, you can change your list of prepared spells, replacing any of the spells there with other Artificer spells for which you have spell slots.</p>
+<p><strong>Spellcasting Ability.</strong> Intelligence is your spellcasting ability for your Artificer spells.</p>
+<h3 id="level-2-improvised-enhancement"><a class="header" href="#level-2-improvised-enhancement">LEVEL 2: IMPROVISED ENHANCEMENT</a></h3>
+<p>You are skilled in quickly creating small mechanical devices, potions, or runes that can be used to improve the effectiveness of...almost anything.</p>
+<p>As a Bonus Action, the artificer can craft and deploy an effect booster to a single target within 15'. At the time it is deployed, they can designate it as an boost to weapon damage, spell damage, healing, damage reduction, or any other instance of dice being rolled for effect, not resolution. (It does not impact d20 tests or d100 randomizers). </p>
+<p>This effect increases at the artificer levels:</p>
+<ul>
+<li>1-8 - 1d6</li>
+<li>9-16 - 2d6</li>
+<li>17+ - 3d6</li>
+</ul>
+<p>If the effect is not used for the intended purpose before the start of the artificer's next turn, it ends.</p>
+<h3 id="level-2-replicate-magic-item"><a class="header" href="#level-2-replicate-magic-item">LEVEL 2: REPLICATE MAGIC ITEM</a></h3>
+<p>You have learned arcane plans that you use to make magic items.</p>
+<p><strong>Plans Known.</strong> When you gain this feature, choose four plans to learn from the Magic Item Plans (Artificer Level 2+) table (see the Dungeon Master’s Guide for the items’ descriptions). Bag of Holding, Cap of Water Breathing, Sending Stones, and Wand of the War Mage +1 are recommended. Whenever you gain an Artificer level, you can replace one of the plans you know with a new plan for which you qualify.</p>
+<p>You learn another plan of your choice when you reach certain Artificer levels, as shown in the Plans Known column of the Artificer Features table.</p>
+<p><strong>Creating an Item.</strong> When you finish a Long Rest, you can create one or two different magic items if you have Tinker’s Tools in hand. Each item is based on one of the plans you know for this feature.</p>
+<p>If a created item requires Attunement, you can attune yourself to it the instant you create it. If you decide to attune to the item later, you must do so using the normal process for Attunement. When you reach certain Artificer levels specified in the Magic Items column of the Artificer Features table, the number of magic items you can create at the end of a Long Rest increases. Each item you create must be based on a different plan you know.</p>
+<p>If you try to exceed your maximum number of magic items for this feature, the oldest item vanishes, and then the new item appears.</p>
+<p><strong>Duration.</strong> A magic item created by this feature functions exactly like the normal magic item except its magic isn’t permanent. When you die, the magic item vanishes after 1d4 days. If an item that you created with this feature is a container, such as a Bag of Holding, and it vanishes, its contents harmlessly appear in and around its space.</p>
+<h3 id="magic-item-plans-artificer-level-2"><a class="header" href="#magic-item-plans-artificer-level-2">MAGIC ITEM PLANS (ARTIFICER LEVEL 2+)</a></h3>
+<div class="table-wrapper"><table><thead><tr><th style="text-align: left">Magic Item Plan</th><th style="text-align: left">Attunement</th></tr></thead><tbody>
+<tr><td style="text-align: left">Alchemy Jug</td><td style="text-align: left">No</td></tr>
+<tr><td style="text-align: left">Bag of Holding</td><td style="text-align: left">No</td></tr>
+<tr><td style="text-align: left">Cap of Water Breathing</td><td style="text-align: left">No</td></tr>
+<tr><td style="text-align: left">Common magic item that isn’t a Potion, a Scroll, or cursed (you can learn this option multiple times and must select a different item each time; each item selected counts as a different plan)</td><td style="text-align: left">Varies</td></tr>
+<tr><td style="text-align: left">Goggles of Night</td><td style="text-align: left">No</td></tr>
+<tr><td style="text-align: left">Rope of Climbing</td><td style="text-align: left">No</td></tr>
+<tr><td style="text-align: left">Sending Stones</td><td style="text-align: left">No</td></tr>
+<tr><td style="text-align: left">Shield +1</td><td style="text-align: left">No</td></tr>
+<tr><td style="text-align: left">Wand of Magic Detection</td><td style="text-align: left">No</td></tr>
+<tr><td style="text-align: left">Wand of Secrets</td><td style="text-align: left">No</td></tr>
+<tr><td style="text-align: left">Wand of the War Mage +1</td><td style="text-align: left">Yes</td></tr>
+<tr><td style="text-align: left">Weapon +1</td><td style="text-align: left">No</td></tr>
+</tbody></table>
+</div>
+<h3 id="magic-item-plans-artificer-level-6"><a class="header" href="#magic-item-plans-artificer-level-6">MAGIC ITEM PLANS (ARTIFICER LEVEL 6+)</a></h3>
+<div class="table-wrapper"><table><thead><tr><th style="text-align: left">Magic Item Plan</th><th style="text-align: left">Attunement</th></tr></thead><tbody>
+<tr><td style="text-align: left">Armor +1</td><td style="text-align: left">No</td></tr>
+<tr><td style="text-align: left">Boots of Elvenkind</td><td style="text-align: left">No</td></tr>
+<tr><td style="text-align: left">Cloak of Elvenkind</td><td style="text-align: left">Yes</td></tr>
+<tr><td style="text-align: left">Cloak of the Manta Ray</td><td style="text-align: left">No</td></tr>
+<tr><td style="text-align: left">Eyes of Charming</td><td style="text-align: left">Yes</td></tr>
+<tr><td style="text-align: left">Gloves of Thievery</td><td style="text-align: left">No</td></tr>
+<tr><td style="text-align: left">Lantern of Revealing</td><td style="text-align: left">No</td></tr>
+<tr><td style="text-align: left">Pipes of Haunting</td><td style="text-align: left">No</td></tr>
+<tr><td style="text-align: left">Uncommon Armor, Wand, or Weapon that isn’t cursed (you can learn this option multiple times and must select a different item each time; each item selected counts as a different plan)</td><td style="text-align: left">Varies</td></tr>
+</tbody></table>
+</div>
+<h3 id="magic-item-plans-artificer-level-10"><a class="header" href="#magic-item-plans-artificer-level-10">MAGIC ITEM PLANS (ARTIFICER LEVEL 10+)</a></h3>
+<div class="table-wrapper"><table><thead><tr><th style="text-align: left">Magic Item Plan</th><th style="text-align: left">Attunement</th></tr></thead><tbody>
+<tr><td style="text-align: left">Uncommon Ring or Wondrous Item that isn’t cursed (you can learn this option multiple times and must select a different item each time; each item selected counts as a different plan)</td><td style="text-align: left">Varies</td></tr>
+</tbody></table>
+</div>
+<h3 id="magic-item-plans-artificer-level-14"><a class="header" href="#magic-item-plans-artificer-level-14">MAGIC ITEM PLANS (ARTIFICER LEVEL 14+)</a></h3>
+<div class="table-wrapper"><table><thead><tr><th style="text-align: left">Magic Item Plan</th><th style="text-align: left">Attunement</th></tr></thead><tbody>
+<tr><td style="text-align: left">Rare Armor, Ring, Wand, Weapon, or Wondrous Item that isn’t cursed (you can learn this option multiple times and must select a different item each time; each item selected counts as a different plan)</td><td style="text-align: left">Varies</td></tr>
+</tbody></table>
+</div>
+<h3 id="level-3-artificer-subclass"><a class="header" href="#level-3-artificer-subclass">LEVEL 3: ARTIFICER SUBCLASS</a></h3>
+<p>You gain an Artificer subclass of your choice. The Alchemist, Armorer, Artillerist, and Battle Smith subclasses are detailed after this class’s description. A subclass is a specialization that grants you features at certain Artificer levels. For the rest of your career, you gain each of your subclass’s features that are of your Artificer level or lower.</p>
+<h3 id="level-3-right-tool-for-the-job"><a class="header" href="#level-3-right-tool-for-the-job">LEVEL 3: RIGHT TOOL FOR THE JOB</a></h3>
+<p>The list of items you can create with Magical Tinkering now includes Artisan’s Tools, which are described in the Player’s Handbook.</p>
+<h3 id="level-4-ability-score-improvement"><a class="header" href="#level-4-ability-score-improvement">LEVEL 4: ABILITY SCORE IMPROVEMENT</a></h3>
+<p>You gain the Ability Score Improvement feat or another feat of your choice for which you qualify. You gain this feature again at Artificer levels 8, 12, and 16.</p>
+<h3 id="level-6-magic-item-tinker"><a class="header" href="#level-6-magic-item-tinker">LEVEL 6: MAGIC ITEM TINKER</a></h3>
+<p>Your Replicate Magic Item feature improves as follows:</p>
+<p><strong>Drain Magic Item.</strong> As a Bonus Action, you can touch a magic item within 5 feet of yourself that you created with Replicate Magic Item and cause the item to vanish, converting its magical energy into a spell slot. The slot is level 1 if the item is Common or level 2 if the item is Uncommon or Rare. Once you use this feature, you can’t do so again until you finish a Long Rest. Any spell slot you create with this feature vanishes when you finish a Long Rest.</p>
+<p><strong>Expanded Replication.</strong> When you learn a plan for your Replicate Magic Item feature, you can now also choose from the Magic Item Plans (Artificer Level 6+) table.</p>
+<h3 id="level-7-flash-of-genius"><a class="header" href="#level-7-flash-of-genius">LEVEL 7: FLASH OF GENIUS</a></h3>
+<p>When you or a creature you can see within 30 feet of you fails an ability check or a saving throw, you can take a Reaction to add a bonus to the roll equal to your Intelligence modifier (minimum of +1). You can use this feature a number of times equal to your Intelligence modifier (minimum of once), and you regain all expended uses when you finish a Long Rest.</p>
+<h3 id="level-10-magic-item-adept"><a class="header" href="#level-10-magic-item-adept">LEVEL 10: MAGIC ITEM ADEPT</a></h3>
+<p>You’ve achieved a profound understanding of how to use and make magic items, granting you the following benefits:</p>
+<p><strong>Additional Attunement.</strong> You can attune to up to four magic items at once rather than three.</p>
+<p><strong>Expanded Replication.</strong> When you learn a plan for your Replicate Magic Item feature, you can now also choose from the Magic Item Plans (Artificer Level 10+) table.</p>
+<h3 id="level-11-spell-storing-item"><a class="header" href="#level-11-spell-storing-item">LEVEL 11: SPELL-STORING ITEM</a></h3>
+<p>Whenever you finish a Long Rest, you can touch one Simple or Martial weapon or one item that you can use as a Spellcasting Focus, and you store a spell in it, choosing a level 1, 2, or 3 Artificer spell that has a casting time of an action (you needn’t have the spell prepared).</p>
+<p>While holding the object, a creature can take an action to produce the spell’s effect from it, using your spellcasting ability modifier. If the spell requires Concentration, the creature must concentrate. The spell stays in the object until it’s been used a number of times equal to twice your Intelligence modifier (minimum of twice) or until you use this feature again to store a spell in an object.</p>
+<h3 id="level-14-magic-item-savant"><a class="header" href="#level-14-magic-item-savant">LEVEL 14: MAGIC ITEM SAVANT</a></h3>
+<p>Your skill with magic items deepens, granting you the following benefits:</p>
+<p><strong>Additional Attunement.</strong> You can attune to up to five magic items at once rather than three.</p>
+<p><strong>Expanded Replication.</strong> When you learn a plan for your Replicate Magic Item feature, you can now also choose from the Magic Item Plans (Artificer Level 14+) table. You can have no more than three Rare items created by Replicate Magic Item at a time.</p>
+<h3 id="level-18-magic-item-master"><a class="header" href="#level-18-magic-item-master">LEVEL 18: MAGIC ITEM MASTER</a></h3>
+<p>You can now attune to up to six magic items at once rather than three.</p>
+<h3 id="level-19-epic-boon"><a class="header" href="#level-19-epic-boon">LEVEL 19: EPIC BOON</a></h3>
+<p>You gain an Epic Boon feat or another feat of your choice for which you qualify. Boon of Energy Resistance is recommended.</p>
+<h3 id="level-20-soul-of-artifice"><a class="header" href="#level-20-soul-of-artifice">LEVEL 20: SOUL OF ARTIFICE</a></h3>
+<p>You have developed a mystical connection to your magic items, which you can draw on for aid. You gain the following benefits:</p>
+<p><strong>Cheat Death.</strong> If you’re reduced to 0 Hit Points but not killed outright, you can disintegrate one Uncommon or Rare magic item created by your Replicate Magic Item feature, changing your Hit Points to 20 instead of 0.</p>
+<p><strong>Magical Guidance.</strong> While you have Attunement to at least one magic item, you can add 1d6 to any ability check you make. You decide to add the die after rolling the d20, and you can use this benefit only once per turn.</p>
+<h3 id="artificer-spell-list"><a class="header" href="#artificer-spell-list">ARTIFICER SPELL LIST</a></h3>
+<p>This section presents the Artificer spell list. The spells are organized by spell level and then alphabetized, and each spell’s school of magic is listed. In the Special column, C means the spell requires Concentration, R means it’s a Ritual, and M means it requires a specific Material component.</p>
+<h3 id="cantrips-level-0-artificer-spells"><a class="header" href="#cantrips-level-0-artificer-spells">CANTRIPS (LEVEL 0 ARTIFICER SPELLS)</a></h3>
+<div class="table-wrapper"><table><thead><tr><th style="text-align: left">Spell</th><th style="text-align: left">School</th><th style="text-align: left">Special</th></tr></thead><tbody>
+<tr><td style="text-align: left">Acid Splash</td><td style="text-align: left">Evocation</td><td style="text-align: left">—</td></tr>
+<tr><td style="text-align: left">Dancing Lights</td><td style="text-align: left">Illusion</td><td style="text-align: left">C</td></tr>
+<tr><td style="text-align: left">Elementalism</td><td style="text-align: left">Transmutation</td><td style="text-align: left">—</td></tr>
+<tr><td style="text-align: left">Fire Bolt</td><td style="text-align: left">Evocation</td><td style="text-align: left">—</td></tr>
+<tr><td style="text-align: left">Guidance</td><td style="text-align: left">Divination</td><td style="text-align: left">C</td></tr>
+<tr><td style="text-align: left">Light</td><td style="text-align: left">Evocation</td><td style="text-align: left">—</td></tr>
+<tr><td style="text-align: left">Mage Hand</td><td style="text-align: left">Conjuration</td><td style="text-align: left">—</td></tr>
+<tr><td style="text-align: left">Mending</td><td style="text-align: left">Transmutation</td><td style="text-align: left">—</td></tr>
+<tr><td style="text-align: left">Message</td><td style="text-align: left">Transmutation</td><td style="text-align: left">—</td></tr>
+<tr><td style="text-align: left">Poison Spray</td><td style="text-align: left">Necromancy</td><td style="text-align: left">—</td></tr>
+<tr><td style="text-align: left">Prestidigitation</td><td style="text-align: left">Transmutation</td><td style="text-align: left">—</td></tr>
+<tr><td style="text-align: left">Ray of Frost</td><td style="text-align: left">Evocation</td><td style="text-align: left">—</td></tr>
+<tr><td style="text-align: left">Resistance</td><td style="text-align: left">Abjuration</td><td style="text-align: left">C</td></tr>
+<tr><td style="text-align: left">Shocking Grasp</td><td style="text-align: left">Evocation</td><td style="text-align: left">—</td></tr>
+<tr><td style="text-align: left">Spare the Dying</td><td style="text-align: left">Necromancy</td><td style="text-align: left">—</td></tr>
+<tr><td style="text-align: left">Thorn Whip</td><td style="text-align: left">Transmutation</td><td style="text-align: left">—</td></tr>
+<tr><td style="text-align: left">Thunderclap</td><td style="text-align: left">Evocation</td><td style="text-align: left">—</td></tr>
+<tr><td style="text-align: left">True Strike</td><td style="text-align: left">Divination</td><td style="text-align: left">M</td></tr>
+</tbody></table>
+</div>
+<h3 id="level-1-artificer-spells"><a class="header" href="#level-1-artificer-spells">LEVEL 1 ARTIFICER SPELLS</a></h3>
+<div class="table-wrapper"><table><thead><tr><th style="text-align: left">Spell</th><th style="text-align: left">School</th><th style="text-align: left">Special</th></tr></thead><tbody>
+<tr><td style="text-align: left">Alarm</td><td style="text-align: left">Abjuration</td><td style="text-align: left">R</td></tr>
+<tr><td style="text-align: left">Cure Wounds</td><td style="text-align: left">Abjuration</td><td style="text-align: left">—</td></tr>
+<tr><td style="text-align: left">Detect Magic</td><td style="text-align: left">Divination</td><td style="text-align: left">C, R</td></tr>
+<tr><td style="text-align: left">Disguise Self</td><td style="text-align: left">Illusion</td><td style="text-align: left">—</td></tr>
+<tr><td style="text-align: left">Expeditious Retreat</td><td style="text-align: left">Transmutation</td><td style="text-align: left">C</td></tr>
+<tr><td style="text-align: left">Faerie Fire</td><td style="text-align: left">Evocation</td><td style="text-align: left">C</td></tr>
+<tr><td style="text-align: left">False Life</td><td style="text-align: left">Necromancy</td><td style="text-align: left">—</td></tr>
+<tr><td style="text-align: left">Feather Fall</td><td style="text-align: left">Transmutation</td><td style="text-align: left">—</td></tr>
+<tr><td style="text-align: left">Grease</td><td style="text-align: left">Conjuration</td><td style="text-align: left">—</td></tr>
+<tr><td style="text-align: left">Identify</td><td style="text-align: left">Divination</td><td style="text-align: left">R, M</td></tr>
+<tr><td style="text-align: left">Jump</td><td style="text-align: left">Transmutation</td><td style="text-align: left">—</td></tr>
+<tr><td style="text-align: left">Longstrider</td><td style="text-align: left">Transmutation</td><td style="text-align: left">—</td></tr>
+<tr><td style="text-align: left">Purify Food and Drink</td><td style="text-align: left">Transmutation</td><td style="text-align: left">R</td></tr>
+<tr><td style="text-align: left">Sanctuary</td><td style="text-align: left">Abjuration</td><td style="text-align: left">—</td></tr>
+</tbody></table>
+</div>
+<h3 id="level-2-artificer-spells"><a class="header" href="#level-2-artificer-spells">LEVEL 2 ARTIFICER SPELLS</a></h3>
+<div class="table-wrapper"><table><thead><tr><th style="text-align: left">Spell</th><th style="text-align: left">School</th><th style="text-align: left">Special</th></tr></thead><tbody>
+<tr><td style="text-align: left">Aid</td><td style="text-align: left">Abjuration</td><td style="text-align: left">—</td></tr>
+<tr><td style="text-align: left">Alter Self</td><td style="text-align: left">Transmutation</td><td style="text-align: left">C</td></tr>
+<tr><td style="text-align: left">Arcane Lock</td><td style="text-align: left">Abjuration</td><td style="text-align: left">M</td></tr>
+<tr><td style="text-align: left">Arcane Vigor</td><td style="text-align: left">Abjuration</td><td style="text-align: left">—</td></tr>
+<tr><td style="text-align: left">Blur</td><td style="text-align: left">Illusion</td><td style="text-align: left">C</td></tr>
+<tr><td style="text-align: left">Continual Flame</td><td style="text-align: left">Evocation</td><td style="text-align: left">M</td></tr>
+<tr><td style="text-align: left">Darkvision</td><td style="text-align: left">Transmutation</td><td style="text-align: left">—</td></tr>
+<tr><td style="text-align: left">Dragon’s Breath</td><td style="text-align: left">Transmutation</td><td style="text-align: left">C</td></tr>
+<tr><td style="text-align: left">Enhance Ability</td><td style="text-align: left">Transmutation</td><td style="text-align: left">C</td></tr>
+<tr><td style="text-align: left">Enlarge/Reduce</td><td style="text-align: left">Transmutation</td><td style="text-align: left">C</td></tr>
+<tr><td style="text-align: left">Heat Metal</td><td style="text-align: left">Transmutation</td><td style="text-align: left">C</td></tr>
+<tr><td style="text-align: left">Homunculus Servant</td><td style="text-align: left">Conjuration</td><td style="text-align: left">R, M</td></tr>
+<tr><td style="text-align: left">Invisibility</td><td style="text-align: left">Illusion</td><td style="text-align: left">C</td></tr>
+<tr><td style="text-align: left">Lesser Restoration</td><td style="text-align: left">Abjuration</td><td style="text-align: left">—</td></tr>
+<tr><td style="text-align: left">Levitate</td><td style="text-align: left">Transmutation</td><td style="text-align: left">C</td></tr>
+<tr><td style="text-align: left">Magic Mouth</td><td style="text-align: left">Illusion</td><td style="text-align: left">R, M</td></tr>
+<tr><td style="text-align: left">Magic Weapon</td><td style="text-align: left">Transmutation</td><td style="text-align: left">—</td></tr>
+<tr><td style="text-align: left">Protection from Poison</td><td style="text-align: left">Abjuration</td><td style="text-align: left">—</td></tr>
+<tr><td style="text-align: left">Rope Trick</td><td style="text-align: left">Transmutation</td><td style="text-align: left">—</td></tr>
+<tr><td style="text-align: left">See Invisibility</td><td style="text-align: left">Divination</td><td style="text-align: left">—</td></tr>
+<tr><td style="text-align: left">Spider Climb</td><td style="text-align: left">Transmutation</td><td style="text-align: left">C</td></tr>
+<tr><td style="text-align: left">Web</td><td style="text-align: left">Conjuration</td><td style="text-align: left">C</td></tr>
+</tbody></table>
+</div>
+<h3 id="level-3-artificer-spells"><a class="header" href="#level-3-artificer-spells">LEVEL 3 ARTIFICER SPELLS</a></h3>
+<div class="table-wrapper"><table><thead><tr><th style="text-align: left">Spell</th><th style="text-align: left">School</th><th style="text-align: left">Special</th></tr></thead><tbody>
+<tr><td style="text-align: left">Blink</td><td style="text-align: left">Transmutation</td><td style="text-align: left">—</td></tr>
+<tr><td style="text-align: left">Create Food and Water</td><td style="text-align: left">Conjuration</td><td style="text-align: left">—</td></tr>
+<tr><td style="text-align: left">Dispel Magic</td><td style="text-align: left">Abjuration</td><td style="text-align: left">—</td></tr>
+<tr><td style="text-align: left">Elemental Weapon</td><td style="text-align: left">Transmutation</td><td style="text-align: left">C</td></tr>
+<tr><td style="text-align: left">Fly</td><td style="text-align: left">Transmutation</td><td style="text-align: left">C</td></tr>
+<tr><td style="text-align: left">Glyph of Warding</td><td style="text-align: left">Abjuration</td><td style="text-align: left">M</td></tr>
+<tr><td style="text-align: left">Haste</td><td style="text-align: left">Transmutation</td><td style="text-align: left">C</td></tr>
+<tr><td style="text-align: left">Protection from Energy</td><td style="text-align: left">Abjuration</td><td style="text-align: left">C</td></tr>
+<tr><td style="text-align: left">Revivify</td><td style="text-align: left">Necromancy</td><td style="text-align: left">M</td></tr>
+<tr><td style="text-align: left">Water Breathing</td><td style="text-align: left">Transmutation</td><td style="text-align: left">R</td></tr>
+<tr><td style="text-align: left">Water Walk</td><td style="text-align: left">Transmutation</td><td style="text-align: left">R</td></tr>
+</tbody></table>
+</div>
+<h3 id="level-4-artificer-spells"><a class="header" href="#level-4-artificer-spells">LEVEL 4 ARTIFICER SPELLS</a></h3>
+<div class="table-wrapper"><table><thead><tr><th style="text-align: left">Spell</th><th style="text-align: left">School</th><th style="text-align: left">Special</th></tr></thead><tbody>
+<tr><td style="text-align: left">Arcane Eye</td><td style="text-align: left">Divination</td><td style="text-align: left">C</td></tr>
+<tr><td style="text-align: left">Fabricate</td><td style="text-align: left">Transmutation</td><td style="text-align: left">—</td></tr>
+<tr><td style="text-align: left">Freedom of Movement</td><td style="text-align: left">Abjuration</td><td style="text-align: left">—</td></tr>
+<tr><td style="text-align: left">Leomund’s Secret Chest</td><td style="text-align: left">Conjuration</td><td style="text-align: left">M</td></tr>
+<tr><td style="text-align: left">Mordenkainen’s Faithful Hound</td><td style="text-align: left">Conjuration</td><td style="text-align: left">—</td></tr>
+<tr><td style="text-align: left">Mordenkainen’s Private Sanctum</td><td style="text-align: left">Abjuration</td><td style="text-align: left">—</td></tr>
+<tr><td style="text-align: left">Otiluke’s Resilient Sphere</td><td style="text-align: left">Abjuration</td><td style="text-align: left">C</td></tr>
+<tr><td style="text-align: left">Stone Shape</td><td style="text-align: left">Transmutation</td><td style="text-align: left">—</td></tr>
+<tr><td style="text-align: left">Stoneskin</td><td style="text-align: left">Transmutation</td><td style="text-align: left">C, M</td></tr>
+<tr><td style="text-align: left">Summon Construct</td><td style="text-align: left">Conjuration</td><td style="text-align: left">C, M</td></tr>
+</tbody></table>
+</div>
+<h3 id="level-5-artificer-spells"><a class="header" href="#level-5-artificer-spells">LEVEL 5 ARTIFICER SPELLS</a></h3>
+<div class="table-wrapper"><table><thead><tr><th style="text-align: left">Spell</th><th style="text-align: left">School</th><th style="text-align: left">Special</th></tr></thead><tbody>
+<tr><td style="text-align: left">Animate Objects</td><td style="text-align: left">Transmutation</td><td style="text-align: left">C</td></tr>
+<tr><td style="text-align: left">Bigby’s Hand</td><td style="text-align: left">Evocation</td><td style="text-align: left">C</td></tr>
+<tr><td style="text-align: left">Circle of Power</td><td style="text-align: left">Abjuration</td><td style="text-align: left">C</td></tr>
+<tr><td style="text-align: left">Creation</td><td style="text-align: left">Illusion</td><td style="text-align: left">—</td></tr>
+<tr><td style="text-align: left">Greater Restoration</td><td style="text-align: left">Abjuration</td><td style="text-align: left">M</td></tr>
+<tr><td style="text-align: left">Wall of Stone</td><td style="text-align: left">Evocation</td><td style="text-align: left">C</td></tr>
+</tbody></table>
+</div>
+<h2 id="artificer-subclasses"><a class="header" href="#artificer-subclasses">ARTIFICER SUBCLASSES</a></h2>
+<p>An Artificer subclass is a specialization that grants you features at certain Artificer levels, as specified in the subclass. This section presents the Alchemist, Armorer, Artillerist, and Battle Smith.</p>
+<h3 id="artillerist"><a class="header" href="#artillerist">ARTILLERIST</a></h3>
+<p>Wield Destructive Power from Afar</p>
+<p>An Artillerist specializes in using magic to hurl energy, projectiles, and explosions on a battlefield. </p>
+<h3 id="level-3-tool-proficiency"><a class="header" href="#level-3-tool-proficiency">LEVEL 3: TOOL PROFICIENCY</a></h3>
+<p>You gain proficiency with Woodcarver’s Tools. If you already have this proficiency, you gain proficiency with one other type of Artisan’s Tools of your choice. In addition, when you craft a magic Wand, the amount of time required to craft it is halved.</p>
+<h3 id="level-3-artillerist-spells"><a class="header" href="#level-3-artillerist-spells">LEVEL 3: ARTILLERIST SPELLS</a></h3>
+<p>When you reach an Artificer level specified in the Artillerist Spells table, you thereafter always have the listed spells prepared.</p>
+<h3 id="artillerist-spells"><a class="header" href="#artillerist-spells">ARTILLERIST SPELLS</a></h3>
+<div class="table-wrapper"><table><thead><tr><th style="text-align: left">Artificer Level</th><th style="text-align: left">Spells</th></tr></thead><tbody>
+<tr><td style="text-align: left">3</td><td style="text-align: left">Shield, Thunderwave</td></tr>
+<tr><td style="text-align: left">5</td><td style="text-align: left">Scorching Ray, Shatter</td></tr>
+<tr><td style="text-align: left">9</td><td style="text-align: left">Fireball, Wind Wall</td></tr>
+<tr><td style="text-align: left">13</td><td style="text-align: left">Ice Storm, Wall of Fire</td></tr>
+<tr><td style="text-align: left">17</td><td style="text-align: left">Cone of Cold, Wall of Force</td></tr>
+</tbody></table>
+</div>
+<h3 id="level-3-eldritch-cannon"><a class="header" href="#level-3-eldritch-cannon">LEVEL 3: ELDRITCH CANNON</a></h3>
+<p>Using Woodcarver’s Tools or Smith’s Tools, you can take a Magic action to create a Small or Tiny Eldritch Cannon in an unoccupied space on a horizontal surface within 5 feet of yourself. The cannon’s game statistics appear below. You determine its appearance, which includes your choice of legs or wheels. It disappears if it is reduced to 0 Hit Points or after 1 hour. You can dismiss it early as a Magic action.</p>
+<p>Once you create a cannon, you can’t do so again until you finish a Long Rest or expend a spell slot to create one. You can have only one cannon at a time and can’t create one while your cannon is present.</p>
+<p><strong>ELDRITCH CANNON</strong>
+<strong>Small or Tiny Object</strong></p>
+<ul>
+<li><strong>Armor Class:</strong> 18</li>
+<li><strong>Hit Points:</strong> 5 × your Artificer level (casting Mending on the cannon restores 2d6 Hit Points to it)</li>
+<li><strong>Immunities:</strong> Poison, Psychic</li>
+</ul>
+<p><strong>Activate Cannon</strong> (Requires You to be within 60 Feet of the Cannon). As a Bonus Action, you order the cannon to use the Flamethrower, Force Ballista, or Protector option below; you can direct the cannon to move up to 15 feet before or after that option:</p>
+<ul>
+<li><strong>Flamethrower.</strong> The cannon exhales fire in a 15-foot Cone. Each creature in that area makes a Dexterity saving throw against your spell save DC, taking 2d8 Fire damage on a failed save or half as much damage on a successful one. Flammable objects in the Cone that aren’t being worn or carried start burning.</li>
+<li><strong>Force Ballista.</strong> Make a ranged spell attack originating from the cannon at one creature or object within 120 feet of it. On a hit, the target takes 2d8 Force damage, and if the target is a creature, it is pushed up to 5 feet away from the cannon.</li>
+<li><strong>Protector.</strong> The cannon emits a burst of positive energy that grants itself and each creature of your choice within 10 feet of it a number of Temporary Hit Points equal to 1d8 plus your Intelligence modifier (minimum of 1).</li>
+</ul>
+<h3 id="level-5-arcane-firearm"><a class="header" href="#level-5-arcane-firearm">LEVEL 5: ARCANE FIREARM</a></h3>
+<p>When you finish a Long Rest, you can use Woodcarver’s Tools to carve special sigils into a Rod, Staff, or Wand and thereby turn it into your arcane firearm. The sigils disappear from the object if you later carve them on a different item. The sigils otherwise last indefinitely. You can use your arcane firearm as a Spellcasting Focus for your Artificer spells. When you cast an Artificer spell through the firearm, roll 1d8, and you gain a bonus to one of the spell’s damage rolls equal to the number rolled.</p>
+<h3 id="level-9-explosive-cannon"><a class="header" href="#level-9-explosive-cannon">LEVEL 9: EXPLOSIVE CANNON</a></h3>
+<p>Every Eldritch Cannon you create is now more destructive. You gain the following benefits:</p>
+<ul>
+<li><strong>Detonate.</strong> When your cannon is reduced to 0 Hit Points, you can take a Reaction to command the cannon to detonate if you are within 60 feet of it. Doing so destroys the cannon and forces each creature within 20 feet of it to make a Dexterity saving throw against your spell save DC, taking 3d10 Force damage on a failed save or half as much damage on a successful one.</li>
+<li><strong>Firepower.</strong> The cannon’s damage rolls increase by 1d8.</li>
+</ul>
+<h3 id="level-15-fortified-position"><a class="header" href="#level-15-fortified-position">LEVEL 15: FORTIFIED POSITION</a></h3>
+<p>You’re a master at forming well-defended emplacements using your Eldritch Cannon. You gain the following benefits:</p>
+<ul>
+<li><strong>Double Firepower.</strong> You can now have two cannons at the same time. You can create two with the same Magic action (but not with the same spell slot), and you can activate both of them with the same Bonus Action, ordering them to use the same activation option or different ones. You can’t create a third cannon while you have two.</li>
+<li><strong>Shimmering Field Projection.</strong> You and your allies have Half Cover while within 10 feet of your Eldritch Cannon.</li>
+</ul>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="../../../../../../mdFromReact/md/rules/rulebook/charCreation/class.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next" href="../../../../../../mdFromReact/md/rules/rulebook/charCreation/classes/barbarian.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="../../../../../../mdFromReact/md/rules/rulebook/charCreation/class.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next" href="../../../../../../mdFromReact/md/rules/rulebook/charCreation/classes/barbarian.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="../../../../../../elasticlunr.min.js"></script>
+        <script src="../../../../../../mark.min.js"></script>
+        <script src="../../../../../../searcher.js"></script>
+
+        <script src="../../../../../../clipboard.min.js"></script>
+        <script src="../../../../../../highlight.js"></script>
+        <script src="../../../../../../book.js"></script>
+
+        <!-- Custom JS scripts -->
+        <script src="../../../../../../theme/pagetoc.js"></script>
+
+
+    </div>
+    </body>
+</html>
