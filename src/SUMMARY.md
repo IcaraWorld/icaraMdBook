@@ -9,6 +9,7 @@
     - [Bloodlines](./mdFromReact/md/rules/rulebook/charCreation/bloodlines.md)
     - [Cultures and Backgrounds](./mdFromReact/md/rules/rulebook/charCreation/cultureAndBackground.md)
     - [Class](./mdFromReact/md/rules/rulebook/charCreation/class.md)
+        - [Artificer](./mdFromReact/md/rules/rulebook/charCreation/classes/artificer.md)
         - [Barbarian](./mdFromReact/md/rules/rulebook/charCreation/classes/barbarian.md)
         - [Bard](./mdFromReact/md/rules/rulebook/charCreation/classes/bard.md)
         - [Cleric](./mdFromReact/md/rules/rulebook/charCreation/classes/cleric.md)
